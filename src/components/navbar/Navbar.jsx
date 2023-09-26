@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const Header = styled.header`
+const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3rem;
-  background-color: #ffff99;
+  background-color: var(--color-primary);
   font-weight: 700;
 `;
 
@@ -29,13 +29,25 @@ const Logo = styled.a`
 const Span = styled.span`
   font-size: 2.8rem;
   letter-spacing: -1px;
-  color: #1b0f37;
+  color: var(--color-text);
   transition: all .15s ease-in-out;
+`;
+
+const NavBar = styled.nav`
+
+`;
+const NavList = styled.ul`
+  display: flex;
+  gap: 2.6rem;
+`;
+const NavItem = styled.li`
+    font-size: 2.6rem;
+    cursor: pointer;
 `;
 
 const Navbar = () => {
   return (
-    <Header>
+    <NavContainer>
       <LogoContainer>
         <Logo>
           <Span>Show</Span>
@@ -43,7 +55,13 @@ const Navbar = () => {
           <Span>Tell</Span>
         </Logo>
       </LogoContainer>
-    </Header>
+      <NavBar>
+        <NavList>
+          <NavItem>{`What's on`}</NavItem>
+          <NavItem>About</NavItem>
+        </NavList>
+      </NavBar>
+    </NavContainer>
   );
 };
 

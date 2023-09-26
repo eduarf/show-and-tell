@@ -8,11 +8,30 @@
   box-sizing: border-box;
 }
 html {
+  --color-primary: #ffff99;
+  --color-text: #1b0f37;
+  --color-green: #1aae7a;
+  --color-pink: #f6aa9f;
+  --color-blue: #006dff;
+  --color-white: #fdfdfd;
+}
+html {
   font-size: 62.5%;
 }
 body {
   font-family: 'Asul', sans-serif;
+  font-size: 1.6rem;
 }
 a {
   text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.box {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #006dff;
+  position: absolute;
 }
