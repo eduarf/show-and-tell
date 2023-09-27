@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import JobsArchive from "../jobs-archive/JobsArchive";
+import { onDropdown, offDropdown } from "../../features/aboutDropdownSlice";
+import { useDispatch } from "react-redux";
 
 const NavContainer = styled.div`
   display: flex;
@@ -30,22 +33,26 @@ const Span = styled.span`
   font-size: 2.8rem;
   letter-spacing: -1px;
   color: var(--color-text);
-  transition: all .15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 `;
 
-const NavBar = styled.nav`
-
-`;
+const NavBar = styled.nav``;
 const NavList = styled.ul`
   display: flex;
   gap: 2.6rem;
 `;
 const NavItem = styled.li`
-    font-size: 2.6rem;
-    cursor: pointer;
+  font-size: 2.6rem;
+  cursor: pointer;
+`;
+const AboutLi = styled.li`
+  font-size: 2.6rem;
+  cursor: pointer;
+  position: relative;
 `;
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   return (
     <NavContainer>
       <LogoContainer>
@@ -58,7 +65,12 @@ const Navbar = () => {
       <NavBar>
         <NavList>
           <NavItem>{`What's on`}</NavItem>
-          <NavItem>About</NavItem>
+          <AboutLi
+            onMouseEnter={() => dispatch(onDropdown())}
+            onMouseLeave={() => dispatch(offDropdown())}
+          >
+            About <JobsArchive />
+          </AboutLi>
         </NavList>
       </NavBar>
     </NavContainer>

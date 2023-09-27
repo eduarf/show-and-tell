@@ -29,9 +29,9 @@ ul {
   list-style-type: none;
 }
 .box {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
   background: #006dff;
   position: absolute;
 }
