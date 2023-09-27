@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Flyers from "../flyers/Flyers";
+import Cookie from "../cookie/Cookie";
 
 const HeaderEl = styled.div`
   height: calc(100vh - 94px);
@@ -8,12 +9,14 @@ const HeaderEl = styled.div`
   align-items: flex-end;
   padding: 1rem 2rem;
   overflow: hidden;
+  position: relative;
 `;
 
 const Header = () => {
   return (
     <HeaderEl>
       <Flyers />
+      <Cookie />
     </HeaderEl>
   );
 };
