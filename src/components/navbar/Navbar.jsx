@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import JobsArchive from "../jobs-archive/JobsArchive";
+import AboutDropdown from "../about-dropdown/AboutDropdown";
 import { onDropdown, offDropdown } from "../../features/aboutDropdownSlice";
 import { useDispatch } from "react-redux";
 
@@ -69,7 +69,7 @@ const Navbar = () => {
             onMouseEnter={() => dispatch(onDropdown())}
             onMouseLeave={() => dispatch(offDropdown())}
           >
-            About <JobsArchive />
+            About <AboutDropdown />
           </AboutLi>
         </NavList>
       </NavBar>
