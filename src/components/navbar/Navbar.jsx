@@ -69,7 +69,8 @@ const Navbar = () => {
             onMouseEnter={() => dispatch(onDropdown())}
             onMouseLeave={() => dispatch(offDropdown())}
           >
-            About <AboutDropdown />
+            About
+            <AboutDropdown />
           </AboutLi>
         </NavList>
       </NavBar>

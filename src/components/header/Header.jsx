@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Flyers from "../flyers/Flyers";
 
 const HeaderEl = styled.div`
   height: calc(100vh - 94px);
@@ -6,7 +7,11 @@ const HeaderEl = styled.div`
 `;
 
 const Header = () => {
-  return <HeaderEl></HeaderEl>;
+  return (
+    <HeaderEl>
+      <Flyers />
+    </HeaderEl>
+  );
 };
 
 export default Header;
