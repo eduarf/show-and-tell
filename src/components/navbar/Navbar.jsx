@@ -2,6 +2,7 @@ import styled from "styled-components";
 import AboutDropdown from "../about-dropdown/AboutDropdown";
 import { onDropdown, offDropdown } from "../../features/aboutDropdownSlice";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 const NavContainer = styled.div`
   display: flex;
@@ -24,7 +25,7 @@ const LogoContainer = styled.div`
   }
 `;
 
-const Logo = styled.a`
+const Logo = styled(Link)`
   display: flex;
   gap: 0.8rem;
 `;
@@ -41,14 +42,16 @@ const NavList = styled.ul`
   display: flex;
   gap: 2.6rem;
 `;
-const NavItem = styled.li`
+const NavItem = styled(Link)`
   font-size: 2.6rem;
   cursor: pointer;
+  color: var(--color-text);
 `;
-const AboutLi = styled.li`
+const AboutLi = styled(Link)`
   font-size: 2.6rem;
   cursor: pointer;
   position: relative;
+  color: var(--color-text);
 `;
 
 const Navbar = () => {
@@ -56,7 +59,7 @@ const Navbar = () => {
   return (
     <NavContainer>
       <LogoContainer>
-        <Logo>
+        <Logo to='/'>
           <Span>Show</Span>
           <Span>And</Span>
           <Span>Tell</Span>
@@ -64,10 +67,11 @@ const Navbar = () => {
       </LogoContainer>
       <NavBar>
         <NavList>
-          <NavItem>{`What's on`}</NavItem>
+          <NavItem to='/events'>{`What's on`}</NavItem>
           <AboutLi
             onMouseEnter={() => dispatch(onDropdown())}
             onMouseLeave={() => dispatch(offDropdown())}
+            to='about'
           >
             About
             <AboutDropdown />

@@ -14,6 +14,7 @@ const StyledAboutDropdown = styled.div`
   transition: opacity 0.2s ease-in-out, transform 0.3s ease-in-out;
   display: grid;
   place-items: center;
+  z-index: 10;
 `;
 const StyledList = styled.ul`
   display: flex;

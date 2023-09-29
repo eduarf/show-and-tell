@@ -1,4 +1,3 @@
-import Navbar from "../../components/navbar/Navbar";
 // import { useRef } from "react";
 // import { motion } from "framer-motion";
 // import { useFollowPointer } from "../../use-follow-pointer";
@@ -9,7 +8,6 @@ const Home = () => {
   // const { x, y } = useFollowPointer(ref);
 
   return <div>
-    <Navbar />
     <Header />
     {/* <motion.div
       ref={ref}
