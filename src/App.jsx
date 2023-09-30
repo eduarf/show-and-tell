@@ -36,7 +36,7 @@ function App() {
   ]);
 
   return (
-    <div>
+    <div style={{overflow: 'hidden'}}>
       <RouterProvider router={router} />
     </div>
   );

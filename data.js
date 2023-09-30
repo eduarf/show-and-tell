@@ -961,3 +961,26 @@ export const eventsItemsDetails = [
     photoSmall: './src/assets/new-fin-taylor-small.png',
   },
 ];
+
+export const navLinks = [
+  {
+    id: nanoid(),
+    name: "What's On",
+    link: 'events',
+  },
+  {
+    id: nanoid(),
+    name: 'About',
+    link: 'about'
+  },
+  {
+    id: nanoid(),
+    name: 'Jobs',
+    link: 'about/jobs'
+  },
+  {
+    id: nanoid(),
+    name: 'Archive',
+    link: 'about/archive'
+  },
+];

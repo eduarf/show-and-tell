@@ -14,7 +14,10 @@ const StyledCookie = styled.div`
     gap: 8rem;
     transition: all .3s ease-in-out;
     @media only screen and (max-width: 720px){
-      display: none;
+      height: 20rem;
+      width: 15rem;
+      gap: 1rem;
+      bottom: -15%;
     }
     &:hover {
         transform: rotate(7deg) translateY(-8%);
