@@ -984,3 +984,238 @@ export const navLinks = [
     link: 'about/archive'
   },
 ];
+
+export const eventCities = [
+  {
+    id: nanoid(),
+    city: 'Andover',
+  },
+  {
+    id: nanoid(),
+    city: 'Bernard Castle',
+  },
+  {
+    id: nanoid(),
+    city: 'Belfast',
+  },
+  {
+    id: nanoid(),
+    city: 'Birmingham',
+  },
+  {
+    id: nanoid(),
+    city: 'Brighton',
+  },
+  {
+    id: nanoid(),
+    city: 'Bristol',
+  },
+  {
+    id: nanoid(),
+    city: 'Cambrdige',
+  },
+  {
+    id: nanoid(),
+    city: 'Cardiff',
+  },
+  {
+    id: nanoid(),
+    city: 'Canterbury',
+  },
+  {
+    id: nanoid(),
+    city: 'Chelmsford',
+  },
+  {
+    id: nanoid(),
+    city: 'Chorley',
+  },
+  {
+    id: nanoid(),
+    city: 'Cork',
+  },
+  {
+    id: nanoid(),
+    city: 'Coventry',
+  },
+  {
+    id: nanoid(),
+    city: 'Dublin',
+  },
+  {
+    id: nanoid(),
+    city: 'Edinburgh',
+  },
+  {
+    id: nanoid(),
+    city: 'Exeter',
+  },
+  {
+    id: nanoid(),
+    city: 'Folkestone',
+  },
+  {
+    id: nanoid(),
+    city: 'Glasgow',
+  },
+  {
+    id: nanoid(),
+    city: 'Gloucester',
+  },
+  {
+    id: nanoid(),
+    city: 'Henly-On-Thames',
+  },
+  {
+    id: nanoid(),
+    city: 'Hexham',
+  },
+  {
+    id: nanoid(),
+    city: 'Horsham',
+  },
+  {
+    id: nanoid(),
+    city: 'Hull',
+  },
+  {
+    id: nanoid(),
+    city: 'Kendal',
+  },
+  {
+    id: nanoid(),
+    city: 'Lancaster',
+  },
+  {
+    id: nanoid(),
+    city: 'Leeds',
+  },
+  {
+    id: nanoid(),
+    city: 'Leicester',
+  },
+  {
+    id: nanoid(),
+    city: 'Lincoln',
+  },
+  {
+    id: nanoid(),
+    city: 'Liverpool',
+  },
+  {
+    id: nanoid(),
+    city: 'London',
+  },
+  {
+    id: nanoid(),
+    city: 'Maidenhead',
+  },
+  {
+    id: nanoid(),
+    city: 'Manchaster',
+  },
+  {
+    id: nanoid(),
+    city: 'Newbury',
+  },
+  {
+    id: nanoid(),
+    city: 'Newcastle',
+  },
+  {
+    id: nanoid(),
+    city: 'Northampton',
+  },
+  {
+    id: nanoid(),
+    city: 'Northallerton',
+  },
+  {
+    id: nanoid(),
+    city: 'Norwich',
+  },
+  {
+    id: nanoid(),
+    city: 'Nottingham',
+  },
+  {
+    id: nanoid(),
+    city: 'Oxford',
+  },
+  {
+    id: nanoid(),
+    city: 'Plymouth',
+  },
+  {
+    id: nanoid(),
+    city: 'Portsmouth',
+  },
+  {
+    id: nanoid(),
+    city: 'Reading',
+  },
+  {
+    id: nanoid(),
+    city: 'Salford',
+  },
+  {
+    id: nanoid(),
+    city: 'Sheffield',
+  },
+  {
+    id: nanoid(),
+    city: 'Shrewbury',
+  },
+  {
+    id: nanoid(),
+    city: 'Southampton',
+  },
+  {
+    id: nanoid(),
+    city: 'St Austell',
+  },
+  {
+    id: nanoid(),
+    city: 'St Austell',
+  },
+  {
+    id: nanoid(),
+    city: 'Stafford',
+  },
+  {
+    id: nanoid(),
+    city: 'Stockton',
+  },
+  {
+    id: nanoid(),
+    city: 'Sunderland',
+  },
+  {
+    id: nanoid(),
+    city: 'Southport',
+  },
+  {
+    id: nanoid(),
+    city: 'Swindon',
+  },
+  {
+    id: nanoid(),
+    city: 'Tunbridge Wells',
+  },
+  {
+    id: nanoid(),
+    city: 'Wells',
+  },
+  {
+    id: nanoid(),
+    city: 'Winchester',
+  },
+  {
+    id: nanoid(),
+    city: 'Worcester',
+  },
+  {
+    id: nanoid(),
+    city: 'New York (NYC)',
+  },
+];
