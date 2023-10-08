@@ -7,8 +7,6 @@ const StyledEventLists = styled.div``;
 
 const EventLists = () => {
   const isRow = useSelector((state) => state.eventList.isRow);
-  console.log(isRow);
-
   return (
     <StyledEventLists>
       {isRow ? <EventListRow /> : <EventListColumn />}
