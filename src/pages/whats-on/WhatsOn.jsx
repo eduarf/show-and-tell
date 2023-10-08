@@ -4,7 +4,7 @@ import { useState } from "react";
 import { SiWindows } from "react-icons/si";
 import { MdTableRows } from "react-icons/md";
 import EventLists from "../../components/event-lists/EventLists";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { onRow, offRow } from "../../features/eventListSlice";
 
 const StyledEvents = styled.section`
@@ -84,16 +84,19 @@ const StyledIconContainer = styled.div`
 const StyledColumnIcon = styled(SiWindows)`
   font-size: 3rem;
   cursor: pointer;
+  color: ${(props) => (props.$isRow ? "#c1c1c1" : "black")};
 `;
 const StyledRowIcon = styled(MdTableRows)`
   font-size: 4.1rem;
   cursor: pointer;
+  color: ${(props) => (props.$isRow ? "black" : "#c1c1c1")};
 `;
 
 export default function WhatsOn() {
   const [isHidden, setIsHidden] = useState(-28);
   const eventCitiesItems = eventCities.slice(isHidden);
   const dispatch = useDispatch();
+  const isRow = useSelector((state) => state.eventList.isRow);
   return (
     <StyledEvents>
       <StyledTopContainer>
@@ -119,8 +122,8 @@ export default function WhatsOn() {
             placeholder="Search"
           ></StyledSearchInput>
           <StyledIconContainer>
-            <StyledColumnIcon onClick={() => dispatch(offRow())} />
-            <StyledRowIcon onClick={() => dispatch(onRow())} />
+            <StyledColumnIcon onClick={() => dispatch(offRow())} $isRow={isRow} />
+            <StyledRowIcon onClick={() => dispatch(onRow())} $isRow={isRow} />
           </StyledIconContainer>
         </StyledRightContainer>
       </StyledTopContainer>
