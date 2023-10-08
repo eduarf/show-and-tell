@@ -1,6 +1,11 @@
 import styled from "styled-components";
 import { eventCities } from "../../../data";
 import { useState } from "react";
+import { SiWindows } from "react-icons/si";
+import { MdTableRows } from "react-icons/md";
+import EventLists from "../../components/event-lists/EventLists";
+import { useDispatch } from "react-redux";
+import { onRow, offRow } from "../../features/eventListSlice";
 
 const StyledEvents = styled.section`
   background-color: var(--color-primary);
@@ -10,6 +15,9 @@ const StyledEvents = styled.section`
 const StyledLeftContainer = styled.div``;
 
 const StyledRightContainer = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 `;
 
 const StyledCityList = styled.div`
@@ -19,7 +27,8 @@ const StyledCityList = styled.div`
 `;
 
 const StyledCityLink = styled.a`
-  /* display: ${(props) => (!props.$isIncludes || props.$isHidden ? "none" : "block")}; */
+  /* display: ${(props) =>
+    !props.$isIncludes || props.$isHidden ? "none" : "block"}; */
   font-size: 1.8rem;
   cursor: pointer;
   color: var(--color-text);
@@ -39,19 +48,19 @@ const StyledSeeMore = styled.a`
   font-size: 1.8rem;
   font-weight: 700;
   cursor: pointer;
-  display: ${(props) => (props.$isHidden === 0 ? 'none' : 'block')};
+  display: ${(props) => (props.$isHidden === 0 ? "none" : "block")};
 `;
 const StyledSeeLess = styled.a`
   font-size: 1.8rem;
   font-weight: 700;
   cursor: pointer;
-  display: ${(props) => (props.$isHidden === -28 ? 'none' : 'block')};
+  display: ${(props) => (props.$isHidden === -28 ? "none" : "block")};
 `;
 
 const StyledSearchInput = styled.input`
   border: none;
   outline: none;
-  padding-bottom: .3rem;
+  padding-bottom: 0.3rem;
   width: 60%;
   font-size: 2.2rem;
   background-color: transparent;
@@ -67,33 +76,55 @@ const StyledSearchInput = styled.input`
   }
 `;
 
+const StyledIconContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+`;
+const StyledColumnIcon = styled(SiWindows)`
+  font-size: 3rem;
+  cursor: pointer;
+`;
+const StyledRowIcon = styled(MdTableRows)`
+  font-size: 4.1rem;
+  cursor: pointer;
+`;
+
 export default function WhatsOn() {
   const [isHidden, setIsHidden] = useState(-28);
   const eventCitiesItems = eventCities.slice(isHidden);
+  const dispatch = useDispatch();
   return (
     <StyledEvents>
       <StyledTopContainer>
         <StyledLeftContainer>
           <StyledCityList>
             {eventCitiesItems.map((item) => {
-              return (
-                <StyledCityLink
-                  key={item.id}
-                >
-                  {item.city}
-                </StyledCityLink>
-              );
+              return <StyledCityLink key={item.id}>{item.city}</StyledCityLink>;
             })}
-            <StyledSeeMore onClick={() => setIsHidden(0)} $isHidden={isHidden}>{'SEE ALL'}</StyledSeeMore>
-            <StyledSeeLess onClick={() => setIsHidden(-28)} $isHidden={isHidden}>{'FEWER'}</StyledSeeLess>
+            <StyledSeeMore onClick={() => setIsHidden(0)} $isHidden={isHidden}>
+              {"SEE ALL"}
+            </StyledSeeMore>
+            <StyledSeeLess
+              onClick={() => setIsHidden(-28)}
+              $isHidden={isHidden}
+            >
+              {"FEWER"}
+            </StyledSeeLess>
           </StyledCityList>
         </StyledLeftContainer>
         <StyledRightContainer>
-            <StyledSearchInput type="search" placeholder="Search">
-
-            </StyledSearchInput>
+          <StyledSearchInput
+            type="search"
+            placeholder="Search"
+          ></StyledSearchInput>
+          <StyledIconContainer>
+            <StyledColumnIcon onClick={() => dispatch(offRow())} />
+            <StyledRowIcon onClick={() => dispatch(onRow())} />
+          </StyledIconContainer>
         </StyledRightContainer>
       </StyledTopContainer>
+      <EventLists />
     </StyledEvents>
   );
 }
