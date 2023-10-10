@@ -378,7 +378,7 @@ export const eventsItemsDetails = [
     locality: "Soho Theatre",
     city: "London",
     photoNormal: './src/assets/michael-akadiri.png',
-    photoSmall: './src/assets/michael-akadiri-small.png',
+    photoSmall: './src/assets/micheal-akadiri-small.png',
   },
   {
     id: nanoid(),

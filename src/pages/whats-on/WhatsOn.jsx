@@ -9,7 +9,7 @@ import { onRow, offRow } from "../../features/eventListSlice";
 
 const StyledEvents = styled.section`
   background-color: var(--color-primary);
-  padding: 6vh 2vw;
+  padding: 6vh 0;
 `;
 
 const StyledLeftContainer = styled.div``;
@@ -42,6 +42,7 @@ const StyledTopContainer = styled.div`
   display: grid;
   grid-template-columns: 62% 38%;
   gap: 2rem;
+  padding: 0 2vw;
 `;
 
 const StyledSeeMore = styled.a`

@@ -6,6 +6,7 @@ const StyledEventListColumn = styled.div`
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 3rem;
   margin-top: 6rem;
+  padding: 0 2vw;
   @media only screen and (max-width: 720px) {
     grid-template-columns: minmax(0, 1fr);
     padding: 0 2rem;

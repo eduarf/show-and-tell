@@ -3,6 +3,8 @@ import { eventsItemsDetails } from "../../../../data";
 
 const StyledEventListRow = styled.div`
   margin-top: 6rem;
+  letter-spacing: -.6px;
+  font-weight: 600;
 `;
 
 const StyledList = styled.ul`
@@ -13,7 +15,8 @@ const StyledList = styled.ul`
 const StyledItem = styled.li`
   display: flex;
   justify-content: space-between;
-  border: 1.5px solid black;
+  border-bottom: 2px solid black;
+  border-top: ${props => props.$firstItem ? '2px solid black' : 'none'};
 `;
 
 const StyledItemEvent = styled.span`
@@ -34,7 +37,12 @@ const StyledItemLeftContainer = styled.div`
   gap: 2rem;
   align-items: center;
 `;
-const StyledItemRightContainer = styled.div``;
+const StyledItemRightContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2rem;
+`;
 
 const StyledItemBuyNow = styled.a``;
 
@@ -47,21 +55,22 @@ const EventListRow = () => {
   return (
     <StyledEventListRow>
       <StyledList>
-        {eventsItemsDetails.map((item) => {
+        {eventsItemsDetails.map((item,index) => {
+          const firstItem = index === 0;
           return (
-            <StyledItem key={item.id}>
+            <StyledItem key={item.id} $firstItem={firstItem}>
               <StyledItemLeftContainer>
                 <StyledItemImg src={item.photoSmall} />
                 <StyledItemEvent>
-                  {item.group}
-                  {item.gamesName}
+                  {item.group}  
+                  : {item.gamesName}
                 </StyledItemEvent>
                 <StyledItemShowDate>{item.date}</StyledItemShowDate>
                 <StyledItemVenue>{item.locality}</StyledItemVenue>
               </StyledItemLeftContainer>
 
               <StyledItemRightContainer>
-                <StyledItemBuyNow>Buw Now</StyledItemBuyNow>
+                <StyledItemBuyNow>Buy Now</StyledItemBuyNow>
               </StyledItemRightContainer>
             </StyledItem>
           );
