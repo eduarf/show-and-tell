@@ -10,6 +10,9 @@ import { onRow, offRow } from "../../features/eventListSlice";
 const StyledEvents = styled.section`
   background-color: var(--color-primary);
   padding: 6vh 0;
+  @media only screen and (max-width: 720px){
+    padding: 3vh 0;
+  }
 `;
 
 const StyledLeftContainer = styled.div``;
@@ -18,12 +21,22 @@ const StyledRightContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
+  @media only screen and (max-width: 1180px){
+    flex-direction: column;
+  }
+  @media only screen and (max-width: 720px){
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
 
 const StyledCityList = styled.div`
   display: flex;
   gap: 1.3rem;
   flex-wrap: wrap;
+  @media only screen and (max-width: 720px){
+    line-height: .9;
+  }
 `;
 
 const StyledCityLink = styled.a`
@@ -36,6 +49,9 @@ const StyledCityLink = styled.a`
   &:hover {
     text-decoration: underline;
   }
+  @media only screen and (max-width: 720px){
+    font-size: 1.6rem;
+  }
 `;
 
 const StyledTopContainer = styled.div`
@@ -43,6 +59,9 @@ const StyledTopContainer = styled.div`
   grid-template-columns: 62% 38%;
   gap: 2rem;
   padding: 0 2vw;
+  @media only screen and (max-width: 720px){
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 `;
 
 const StyledSeeMore = styled.a`
@@ -50,12 +69,18 @@ const StyledSeeMore = styled.a`
   font-weight: 700;
   cursor: pointer;
   display: ${(props) => (props.$isHidden === 0 ? "none" : "block")};
+  @media only screen and (max-width: 720px){
+    font-size: 1.6rem;
+  }
 `;
 const StyledSeeLess = styled.a`
   font-size: 1.8rem;
   font-weight: 700;
   cursor: pointer;
-  display: ${(props) => (props.$isHidden === -28 ? "none" : "block")};
+  display: ${(props) => (props.$isHidden === - (eventCities.length / 2) ? "none" : "block")};
+  @media only screen and (max-width: 720px){
+    font-size: 1.6rem;
+  }
 `;
 
 const StyledSearchInput = styled.input`
@@ -66,6 +91,12 @@ const StyledSearchInput = styled.input`
   font-size: 2.2rem;
   background-color: transparent;
   border-bottom: 2.5px solid black;
+  @media only screen and (max-width: 1180px){
+    width: 85%;
+  }
+  @media only screen and (max-width: 720px){
+    width: 65%;
+  }
   &::placeholder {
     color: var(--color-text);
     font-weight: 300;
@@ -94,7 +125,7 @@ const StyledRowIcon = styled(MdTableRows)`
 `;
 
 export default function WhatsOn() {
-  const [isHidden, setIsHidden] = useState(-28);
+  const [isHidden, setIsHidden] = useState(-(eventCities.length / 2));
   const eventCitiesItems = eventCities.slice(isHidden);
   const dispatch = useDispatch();
   const isRow = useSelector((state) => state.eventList.isRow);
@@ -110,7 +141,7 @@ export default function WhatsOn() {
               {"SEE ALL"}
             </StyledSeeMore>
             <StyledSeeLess
-              onClick={() => setIsHidden(-28)}
+              onClick={() => setIsHidden(- (eventCities.length / 2))}
               $isHidden={isHidden}
             >
               {"FEWER"}
