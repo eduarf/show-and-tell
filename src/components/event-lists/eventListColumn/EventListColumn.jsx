@@ -10,14 +10,15 @@ const StyledEventListColumn = styled.div`
     grid-template-columns: minmax(0, 1fr);
     padding: 0 2rem;
   }
-  @media only screen and (max-width: 480px){
-    padding: 0 1rem; 
+  @media only screen and (max-width: 480px) {
+    padding: 0 1rem;
   }
 `;
 const StyledEventCard = styled.div`
   position: relative;
   cursor: pointer;
-  background-color: ${props => props.$indeks ? 'var(--color-green)' : 'var(--color-blue)' }; 
+  background-color: ${(props) =>
+    props.$indeks ? "var(--color-green)" : "var(--color-blue)"};
   overflow: hidden;
 `;
 const StyledCardTitleContainer = styled.div`
@@ -80,7 +81,6 @@ const EventListColumn = () => {
     <StyledEventListColumn>
       {uniqueItemsArray.map((item, index) => {
         const indeks = index % 2 === 0 ? true : false;
-        console.log(indeks);
         return (
           <StyledEventCard key={item.id} $indeks={indeks}>
             <StyledCardTitleContainer>

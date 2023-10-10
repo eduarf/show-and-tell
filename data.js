@@ -28,7 +28,7 @@ export const eventsItemsDetails = [
     locality: "Theatre Severn",
     city: "Shrewbury",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -98,7 +98,7 @@ export const eventsItemsDetails = [
     locality: "The Fire Station",
     city: "Sunderland",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -168,7 +168,7 @@ export const eventsItemsDetails = [
     locality: "The Old Rep Theatre",
     city: "Birmingham",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -218,7 +218,7 @@ export const eventsItemsDetails = [
     locality: "Arts Centre",
     city: "Swindon",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -258,7 +258,7 @@ export const eventsItemsDetails = [
     locality: "Guildhall",
     city: "Gloucester",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -268,7 +268,7 @@ export const eventsItemsDetails = [
     locality: "Huntingdon Hall",
     city: "Worcester",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -278,7 +278,7 @@ export const eventsItemsDetails = [
     locality: "Corn Exchange",
     city: "Newbury",
     photoNormal: './src/assets/phys.png',
-    photoSmall: './src/assets/phys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -338,7 +338,7 @@ export const eventsItemsDetails = [
     locality: "The Lights",
     city: "Andover",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -358,7 +358,7 @@ export const eventsItemsDetails = [
     locality: "The Dukes",
     city: "Lancaster",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -368,7 +368,7 @@ export const eventsItemsDetails = [
     locality: "New Century Hall",
     city: "Manchaster",
     photoNormal: './src/assets/phys.png',
-    photoSmall: './src/assets/phys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -428,7 +428,7 @@ export const eventsItemsDetails = [
     locality: "MAST Studio",
     city: "Southampton",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -478,7 +478,7 @@ export const eventsItemsDetails = [
     locality: "Royal & Derngate",
     city: "Northampton",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -498,7 +498,7 @@ export const eventsItemsDetails = [
     locality: "Liberty Hall",
     city: "Dublin",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -508,7 +508,7 @@ export const eventsItemsDetails = [
     locality: "Limelight",
     city: "Belfast",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
@@ -518,7 +518,7 @@ export const eventsItemsDetails = [
     locality: "Corn Exchange",
     city: "Brighton",
     photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.png',
+    photoSmall: './src/assets/rhys-small.jpeg',
   },
   {
     id: nanoid(),
