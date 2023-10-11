@@ -76,7 +76,18 @@ const StyledHeading = styled.h1`
     font-size: calc(14rem + 8vw);
   }
   @media only screen and (max-width: 520px) {
-    font-size: calc(10rem + 4vw);
+    font-size: calc(12rem + 8vw);
+  }
+  @media only screen and (max-width: 460px){
+    font-size: calc(10rem + 8vw);
+  }
+  @media only screen and (max-width: 400px){
+    font-size: calc(10rem + 6vw);
+    letter-spacing: -10px;
+  }
+  @media only screen and (max-width: 350px){
+    font-size: calc(8rem + 8vw);
+    letter-spacing: -7px;
   }
 `;
 
