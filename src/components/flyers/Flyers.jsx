@@ -61,13 +61,19 @@ const StyledFlyersItem = styled.div`
 `;
 
 const StyledHeading = styled.h1`
-  font-size: calc(10rem + 2vw);
+  font-size: calc(14rem + 2vw);
   color: var(--color-text);
   font-weight: 700;
   text-align: center;
   letter-spacing: -5px;
   @media only screen and (min-width: 1500px) {
     font-size: calc(12rem + 4vw);
+  }
+  @media only screen and (max-width: 1200px){
+    font-size: calc(12rem + 2vw);
+  }
+  @media only screen and (max-width: 1100px){
+    font-size: calc(10rem + 2vw);
   }
   @media only screen and (max-width: 1000px) {
     font-size: calc(6rem + 4vw);
