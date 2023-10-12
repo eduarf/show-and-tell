@@ -989,233 +989,286 @@ export const eventCities = [
   {
     id: nanoid(),
     city: 'Andover',
+    link: 'andover',
   },
   {
     id: nanoid(),
     city: 'Bernard Castle',
+    link: 'bernard-castle'
   },
   {
     id: nanoid(),
     city: 'Belfast',
+    link: 'belfast',
   },
   {
     id: nanoid(),
     city: 'Birmingham',
+    link: 'birmingham'
   },
   {
     id: nanoid(),
     city: 'Brighton',
+    link: 'brighton',
   },
   {
     id: nanoid(),
     city: 'Bristol',
+    link: 'bristol'
   },
   {
     id: nanoid(),
     city: 'Cambrdige',
+    link: 'cambridge'
   },
   {
     id: nanoid(),
     city: 'Cardiff',
+    link: 'cardiff'
   },
   {
     id: nanoid(),
     city: 'Canterbury',
+    link: 'canterbury'
   },
   {
     id: nanoid(),
     city: 'Chelmsford',
+    link: 'chelmsford'
   },
   {
     id: nanoid(),
     city: 'Chorley',
+    link: 'chorley'
   },
   {
     id: nanoid(),
     city: 'Cork',
+    link: 'cork'
   },
   {
     id: nanoid(),
     city: 'Coventry',
+    link: 'coventry'
   },
   {
     id: nanoid(),
     city: 'Dublin',
+    link: 'dublin'
   },
   {
     id: nanoid(),
     city: 'Edinburgh',
+    link: 'edinburgh'
   },
   {
     id: nanoid(),
     city: 'Exeter',
+    link: 'exeter'
   },
   {
     id: nanoid(),
     city: 'Folkestone',
+    link: 'folkestone'
   },
   {
     id: nanoid(),
     city: 'Glasgow',
+    link: 'glasgow'
   },
   {
     id: nanoid(),
     city: 'Gloucester',
+    link: 'gloucester'
   },
   {
     id: nanoid(),
     city: 'Henly-On-Thames',
+    link: 'henly-on-thames'
   },
   {
     id: nanoid(),
     city: 'Hexham',
+    link: 'hexham'
   },
   {
     id: nanoid(),
     city: 'Horsham',
+    link: 'horsham'
   },
   {
     id: nanoid(),
     city: 'Hull',
+    link: 'hull'
   },
   {
     id: nanoid(),
     city: 'Kendal',
+    link: 'kendal'
   },
   {
     id: nanoid(),
     city: 'Lancaster',
+    link: 'lancaster'
   },
   {
     id: nanoid(),
     city: 'Leeds',
+    link: 'leeds'
   },
   {
     id: nanoid(),
     city: 'Leicester',
+    link: 'leicester'
   },
   {
     id: nanoid(),
     city: 'Lincoln',
+    link: 'lincoln'
   },
   {
     id: nanoid(),
     city: 'Liverpool',
+    link: 'liverpool'
   },
   {
     id: nanoid(),
     city: 'London',
+    link: 'london'
   },
   {
     id: nanoid(),
     city: 'Maidenhead',
+    link: 'maidenhead'
   },
   {
     id: nanoid(),
-    city: 'Manchaster',
+    city: 'Manchester',
+    link: 'manchester'
   },
   {
     id: nanoid(),
     city: 'Newbury',
+    link: 'newbury'
   },
   {
     id: nanoid(),
     city: 'Newcastle',
+    link: 'newcastle'
   },
   {
     id: nanoid(),
     city: 'Northampton',
+    link: 'northampton'
   },
   {
     id: nanoid(),
     city: 'Northallerton',
+    link: 'northallerton'
   },
   {
     id: nanoid(),
     city: 'Norwich',
+    link: 'norwich'
   },
   {
     id: nanoid(),
     city: 'Nottingham',
+    link: 'nottingham'
   },
   {
     id: nanoid(),
     city: 'Oxford',
+    link: 'oxford'
   },
   {
     id: nanoid(),
     city: 'Plymouth',
+    link: 'plymouth'
   },
   {
     id: nanoid(),
     city: 'Portsmouth',
+    link: 'portsmouth'
   },
   {
     id: nanoid(),
     city: 'Reading',
+    link: 'reading'
   },
   {
     id: nanoid(),
     city: 'Salford',
+    link: 'salford'
   },
   {
     id: nanoid(),
     city: 'Sheffield',
+    link: 'sheffield'
   },
   {
     id: nanoid(),
     city: 'Shrewbury',
+    link: 'shrewbury'
   },
   {
     id: nanoid(),
     city: 'Southampton',
+    link: 'southampton'
   },
   {
     id: nanoid(),
     city: 'St Austell',
-  },
-  {
-    id: nanoid(),
-    city: 'St Austell',
+    link: 'st-austell'
   },
   {
     id: nanoid(),
     city: 'Stafford',
+    link: 'stafford'
   },
   {
     id: nanoid(),
     city: 'Stockton',
+    link: 'stockton'
   },
   {
     id: nanoid(),
     city: 'Sunderland',
+    link: 'sunderland'
   },
   {
     id: nanoid(),
     city: 'Southport',
+    link: 'southport'
   },
   {
     id: nanoid(),
     city: 'Swindon',
+    link: 'swindon'
   },
   {
     id: nanoid(),
     city: 'Tunbridge Wells',
+    link: 'tunbridge-wells'
   },
   {
     id: nanoid(),
     city: 'Wells',
+    link: 'wells'
   },
   {
     id: nanoid(),
     city: 'Winchester',
+    link: 'winchester'
   },
   {
     id: nanoid(),
     city: 'Worcester',
+    link:' worcester'
   },
   {
     id: nanoid(),
     city: 'New York (NYC)',
+    link: 'new-york'
   },
 ];
