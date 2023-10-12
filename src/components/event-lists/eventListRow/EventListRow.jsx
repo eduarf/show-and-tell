@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { eventsItemsDetails } from "../../../../data";
 
 const StyledEventListRow = styled.div`
-  margin-top: 6rem;
   letter-spacing: -0.6px;
 `;
 

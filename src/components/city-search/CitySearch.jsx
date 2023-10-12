@@ -5,6 +5,7 @@ import { SiWindows } from "react-icons/si";
 import { MdTableRows } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { onRow, offRow } from "../../features/eventListSlice";
+import { useLocation } from "react-router-dom";
 
 const StyledEvents = styled.section`
   background-color: var(--color-primary);
@@ -45,6 +46,8 @@ const StyledCityLink = styled.a`
   cursor: pointer;
   color: var(--color-text);
   /* color: ${(props) => (props.$isIncludes ? "red" : "blue")}; */
+  text-decoration: ${props => props.$location ? 'underline' : 'none'};
+  color: ${props => props.$location ? 'var(--color-blue)' : 'var(--color-text)'};
   &:hover {
     text-decoration: underline;
   }
@@ -129,13 +132,15 @@ export default function CitySearch() {
   const eventCitiesItems = eventCities.slice(isHidden);
   const dispatch = useDispatch();
   const isRow = useSelector((state) => state.eventList.isRow);
+  const location = useLocation();
   return (
     <StyledEvents>
       <StyledTopContainer>
         <StyledLeftContainer>
           <StyledCityList>
             {eventCitiesItems.map((item) => {
-              return <StyledCityLink key={item.id}>{item.city}</StyledCityLink>;
+                const whLocation = location.pathname === `/events/${item.link}`;
+              return <StyledCityLink key={item.id} $location={whLocation}>{item.city}</StyledCityLink>;
             })}
             <StyledSeeMore onClick={() => setIsHidden(0)} $isHidden={isHidden}>
               {"SEE ALL"}
