@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { eventsItemsDetails } from "../../../../data";
+import { useLocation } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const StyledEventListColumn = styled.div`
   display: grid;
@@ -65,8 +67,10 @@ const StyledCardImg = styled.img`
   width: 100%;
 `;
 
-const EventListColumn = () => {
+
+const EventListColumn = ({ filterDataColumn }) => {
   const uniqueItems = {};
+  
 
   eventsItemsDetails.forEach((item) => {
     const key = `${item.group}_${item.gamesName}`;
@@ -77,9 +81,25 @@ const EventListColumn = () => {
 
   const uniqueItemsArray = Object.values(uniqueItems);
 
+  const location = useLocation();
+
+    console.log(filterDataColumn);
   return (
     <StyledEventListColumn>
-      {uniqueItemsArray.map((item, index) => {
+      {location.pathname === '/events' ? uniqueItemsArray.map((item, index) => {
+        const indeks = index % 2 === 0 ? true : false;
+        return (
+          <StyledEventCard key={item.id} $indeks={indeks}>
+            <StyledCardTitleContainer>
+              <StyledCardHeading>{item.group}</StyledCardHeading>
+              <StyledDescription>{item.gamesName}</StyledDescription>
+            </StyledCardTitleContainer>
+            <StyledCardImgContainer $indeks={indeks}>
+              <StyledCardImg src={item.photoNormal} />
+            </StyledCardImgContainer>
+          </StyledEventCard>
+        );
+      }) : filterDataColumn.map((item, index) => {
         const indeks = index % 2 === 0 ? true : false;
         return (
           <StyledEventCard key={item.id} $indeks={indeks}>
@@ -97,4 +117,11 @@ const EventListColumn = () => {
   );
 };
 
+EventListColumn.propTypes = {
+  filterDataColumn: PropTypes.array,
+};
+
 export default EventListColumn;
+
+
+

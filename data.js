@@ -1,6 +1,5 @@
 import { nanoid } from "nanoid";
 
-
 export const flyersItems = [
   {
     id: nanoid(),
@@ -27,8 +26,9 @@ export const eventsItemsDetails = [
     date: "30.09.23",
     locality: "Theatre Severn",
     city: "Shrewbury",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -37,8 +37,9 @@ export const eventsItemsDetails = [
     date: "02.10.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$12",
   },
   {
     id: nanoid(),
@@ -46,9 +47,10 @@ export const eventsItemsDetails = [
     gamesName: "with Nish Kumar",
     date: "05.10.23",
     locality: "Copeland Park, Peckham",
-    city: "London",
-    photoNormal: './src/assets/phil-wang.png',
-    photoSmall: './src/assets/phil-wang-small.png',
+    city: "Oxford",
+    photoNormal: "../src/assets/phil-wang.png",
+    photoSmall: "../src/assets/phil-wang-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -57,8 +59,9 @@ export const eventsItemsDetails = [
     date: "06.10.23",
     locality: "Copeland Park, Peckham",
     city: "London",
-    photoNormal: './src/assets/blackwood.png',
-    photoSmall: './src/assets/blackwood-small.png',
+    photoNormal: "../src/assets/blackwood.png",
+    photoSmall: "../src/assets/blackwood-small.png",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -67,8 +70,9 @@ export const eventsItemsDetails = [
     date: "07.10.23",
     locality: "Copeland Park, Peckham",
     city: "London",
-    photoNormal: './src/assets/stewart-lee.png',
-    photoSmall: './src/assets/stewart-lee-small.png',
+    photoNormal: "../src/assets/stewart-lee.png",
+    photoSmall: "../src/assets/stewart-lee-small.png",
+    price: "$14",
   },
   {
     id: nanoid(),
@@ -77,8 +81,9 @@ export const eventsItemsDetails = [
     date: "07.10.23",
     locality: "Copeland Park, Peckham",
     city: "London",
-    photoNormal: './src/assets/gamble.png',
-    photoSmall: './src/assets/gamble-small.png',
+    photoNormal: "../src/assets/gamble.png",
+    photoSmall: "../src/assets/gamble-small.png",
+    price: "$20",
   },
   {
     id: nanoid(),
@@ -87,8 +92,9 @@ export const eventsItemsDetails = [
     date: "07.10.23",
     locality: "Copeland Park, Peckham",
     city: "London",
-    photoNormal: './src/assets/kelechi.png',
-    photoSmall: './src/assets/kelechi-small.png',
+    photoNormal: "../src/assets/kelechi.png",
+    photoSmall: "../src/assets/kelechi-small.png",
+    price: "$23",
   },
   {
     id: nanoid(),
@@ -97,8 +103,9 @@ export const eventsItemsDetails = [
     date: "07.10.23",
     locality: "The Fire Station",
     city: "Sunderland",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -107,8 +114,9 @@ export const eventsItemsDetails = [
     date: "08.10.23",
     locality: "Copeland Park, Peckham",
     city: "London",
-    photoNormal: './src/assets/fern-brady.png',
-    photoSmall: './src/assets/fern-brady-small.png',
+    photoNormal: "../src/assets/fern-brady.png",
+    photoSmall: "../src/assets/fern-brady-small.png",
+    price: "$19",
   },
   {
     id: nanoid(),
@@ -117,8 +125,9 @@ export const eventsItemsDetails = [
     date: "08.10.23",
     locality: "Copeland Park, Peckham",
     city: "London",
-    photoNormal: './src/assets/phil-wang.png',
-    photoSmall: './src/assets/phil-wang-small.png',
+    photoNormal: "../src/assets/phil-wang.png",
+    photoSmall: "../src/assets/phil-wang-small.png",
+    price: "$11",
   },
   {
     id: nanoid(),
@@ -126,9 +135,10 @@ export const eventsItemsDetails = [
     gamesName: "with Catherine Bohart",
     date: "09.10.23",
     locality: "Soho Theatre",
-    city: "London",
-    photoNormal: './src/assets/catherine.png',
-    photoSmall: './src/assets/catherine-small.png',
+    city: "Oxford",
+    photoNormal: "../src/assets/catherine.png",
+    photoSmall: "../src/assets/catherine-small.png",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -137,8 +147,9 @@ export const eventsItemsDetails = [
     date: "09.10.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$27",
   },
   {
     id: nanoid(),
@@ -147,8 +158,9 @@ export const eventsItemsDetails = [
     date: "11.10.23",
     locality: "SoHo Playhouse",
     city: "New York (NYC)",
-    photoNormal: './src/assets/tim-key.jpeg',
-    photoSmall: './src/assets/tim-key-small.jpeg',
+    photoNormal: "../src/assets/tim-key.jpeg",
+    photoSmall: "../src/assets/tim-key-small.jpeg",
+    price: "$24",
   },
   {
     id: nanoid(),
@@ -157,8 +169,9 @@ export const eventsItemsDetails = [
     date: "12.10.23",
     locality: "SoHo Playhouse",
     city: "New York (NYC)",
-    photoNormal: './src/assets/tim-key.jpeg',
-    photoSmall: './src/assets/tim-key-small.jpeg',
+    photoNormal: "../src/assets/tim-key.jpeg",
+    photoSmall: "../src/assets/tim-key-small.jpeg",
+    price: "$20",
   },
   {
     id: nanoid(),
@@ -167,8 +180,9 @@ export const eventsItemsDetails = [
     date: "12.10.23",
     locality: "The Old Rep Theatre",
     city: "Birmingham",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -177,8 +191,9 @@ export const eventsItemsDetails = [
     date: "11.10.23",
     locality: "SoHo Playhouse",
     city: "New York (NYC)",
-    photoNormal: './src/assets/tim-key.jpeg',
-    photoSmall: './src/assets/tim-key-small.jpeg',
+    photoNormal: "../src/assets/tim-key.jpeg",
+    photoSmall: "../src/assets/tim-key-small.jpeg",
+    price: "$14",
   },
   {
     id: nanoid(),
@@ -187,8 +202,9 @@ export const eventsItemsDetails = [
     date: "13.10.23",
     locality: "SoHo Playhouse",
     city: "New York (NYC)",
-    photoNormal: './src/assets/tim-key.jpeg',
-    photoSmall: './src/assets/tim-key-small.jpeg',
+    photoNormal: "../src/assets/tim-key.jpeg",
+    photoSmall: "../src/assets/tim-key-small.jpeg",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -197,8 +213,9 @@ export const eventsItemsDetails = [
     date: "14.10.23",
     locality: "SoHo Playhouse",
     city: "New York (NYC)",
-    photoNormal: './src/assets/tim-key.jpeg',
-    photoSmall: './src/assets/tim-key-small.jpeg',
+    photoNormal: "../src/assets/tim-key.jpeg",
+    photoSmall: "../src/assets/tim-key-small.jpeg",
+    price: "$11",
   },
   {
     id: nanoid(),
@@ -206,9 +223,10 @@ export const eventsItemsDetails = [
     gamesName: "with Kerry Godliman",
     date: "20.10.23",
     locality: "Bush Hall",
-    city: "London",
-    photoNormal: './src/assets/kerry-godliman.png',
-    photoSmall: './src/assets/kerry-godliman-small.png',
+    city: "Oxford",
+    photoNormal: "../src/assets/kerry-godliman.png",
+    photoSmall: "../src/assets/kerry-godliman-small.png",
+    price: "$16",
   },
   {
     id: nanoid(),
@@ -217,8 +235,9 @@ export const eventsItemsDetails = [
     date: "21.10.23",
     locality: "Arts Centre",
     city: "Swindon",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$19",
   },
   {
     id: nanoid(),
@@ -227,8 +246,9 @@ export const eventsItemsDetails = [
     date: "23.10.23",
     locality: "The Old Rep Theatre",
     city: "Birmingham",
-    photoNormal: './src/assets/rachel-parris.png',
-    photoSmall: './src/assets/rachel-parris-small.png',
+    photoNormal: "../src/assets/rachel-parris.png",
+    photoSmall: "../src/assets/rachel-parris-small.png",
+    price: "$21",
   },
   {
     id: nanoid(),
@@ -237,8 +257,9 @@ export const eventsItemsDetails = [
     date: "23.10.23",
     locality: "The Old Rep Theatre",
     city: "Birmingham",
-    photoNormal: './src/assets/rachel-parris.png',
-    photoSmall: './src/assets/rachel-parris-small.png',
+    photoNormal: "../src/assets/rachel-parris.png",
+    photoSmall: "../src/assets/rachel-parris-small.png",
+    price: "$23",
   },
   {
     id: nanoid(),
@@ -247,8 +268,9 @@ export const eventsItemsDetails = [
     date: "25.10.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$30",
   },
   {
     id: nanoid(),
@@ -257,8 +279,9 @@ export const eventsItemsDetails = [
     date: "25.10.23",
     locality: "Guildhall",
     city: "Gloucester",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -267,8 +290,9 @@ export const eventsItemsDetails = [
     date: "26.10.23",
     locality: "Huntingdon Hall",
     city: "Worcester",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -277,8 +301,9 @@ export const eventsItemsDetails = [
     date: "27.10.23",
     locality: "Corn Exchange",
     city: "Newbury",
-    photoNormal: './src/assets/phys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$19",
   },
   {
     id: nanoid(),
@@ -287,8 +312,9 @@ export const eventsItemsDetails = [
     date: "30.10.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$14",
   },
   {
     id: nanoid(),
@@ -297,8 +323,9 @@ export const eventsItemsDetails = [
     date: "03.11.23",
     locality: "Hackney Empire",
     city: "London",
-    photoNormal: './src/assets/ramy-youssef.png',
-    photoSmall: './src/assets/ramy-youssef-small.png',
+    photoNormal: "../src/assets/ramy-youssef.png",
+    photoSmall: "../src/assets/ramy-youssef-small.png",
+    price: "$12",
   },
   {
     id: nanoid(),
@@ -307,8 +334,9 @@ export const eventsItemsDetails = [
     date: "03.11.23",
     locality: "Hackney Empire",
     city: "London",
-    photoNormal: './src/assets/ramy-youssef.png',
-    photoSmall: './src/assets/ramy-youssef-small.png',
+    photoNormal: "../src/assets/ramy-youssef.png",
+    photoSmall: "../src/assets/ramy-youssef-small.png",
+    price: "$11",
   },
   {
     id: nanoid(),
@@ -317,8 +345,9 @@ export const eventsItemsDetails = [
     date: "03.11.23",
     locality: "Hackney Empire",
     city: "London",
-    photoNormal: './src/assets/ramy-youssef.png',
-    photoSmall: './src/assets/ramy-youssef-small.png',
+    photoNormal: "../src/assets/ramy-youssef.png",
+    photoSmall: "../src/assets/ramy-youssef-small.png",
+    price: '$17',
   },
   {
     id: nanoid(),
@@ -327,8 +356,9 @@ export const eventsItemsDetails = [
     date: "03.11.23",
     locality: "Hackney Empire",
     city: "London",
-    photoNormal: './src/assets/ramy-youssef.png',
-    photoSmall: './src/assets/ramy-youssef-small.png',
+    photoNormal: "../src/assets/ramy-youssef.png",
+    photoSmall: "../src/assets/ramy-youssef-small.png",
+    price: "$30",
   },
   {
     id: nanoid(),
@@ -337,8 +367,9 @@ export const eventsItemsDetails = [
     date: "04.11.23",
     locality: "The Lights",
     city: "Andover",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$23",
   },
   {
     id: nanoid(),
@@ -347,8 +378,9 @@ export const eventsItemsDetails = [
     date: "06.11.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$28",
   },
   {
     id: nanoid(),
@@ -357,8 +389,9 @@ export const eventsItemsDetails = [
     date: "09.11.23",
     locality: "The Dukes",
     city: "Lancaster",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$21",
   },
   {
     id: nanoid(),
@@ -366,9 +399,10 @@ export const eventsItemsDetails = [
     gamesName: "Split Milk",
     date: "10.11.23",
     locality: "New Century Hall",
-    city: "Manchaster",
-    photoNormal: './src/assets/phys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    city: "Manchester",
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$20",
   },
   {
     id: nanoid(),
@@ -377,8 +411,9 @@ export const eventsItemsDetails = [
     date: "13.11.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/michael-akadiri.png',
-    photoSmall: './src/assets/micheal-akadiri-small.png',
+    photoNormal: "../src/assets/michael-akadiri.png",
+    photoSmall: "../src/assets/micheal-akadiri-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -386,9 +421,10 @@ export const eventsItemsDetails = [
     gamesName: "An Improvised Jane Austen Novel",
     date: "13.11.23",
     locality: "Arts Theatre West End",
-    city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    city: "Manchester",
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$11",
   },
   {
     id: nanoid(),
@@ -397,8 +433,9 @@ export const eventsItemsDetails = [
     date: "14.11.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/leila-navabi.jpeg',
-    photoSmall: './src/assets/leila-navabi-small.jpeg',
+    photoNormal: "../src/assets/leila-navabi.jpeg",
+    photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    price: "$16",
   },
   {
     id: nanoid(),
@@ -406,9 +443,10 @@ export const eventsItemsDetails = [
     gamesName: "Composition",
     date: "15.11.23",
     locality: "Soho Theatre",
-    city: "London",
-    photoNormal: './src/assets/leila-navabi.jpeg',
-    photoSmall: './src/assets/leila-navabi-small.jpeg',
+    city: "Manchester",
+    photoNormal: "../src/assets/leila-navabi.jpeg",
+    photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    price: "$30",
   },
   {
     id: nanoid(),
@@ -417,8 +455,9 @@ export const eventsItemsDetails = [
     date: "16.11.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/leila-navabi.jpeg',
-    photoSmall: './src/assets/leila-navabi-small.jpeg',
+    photoNormal: "../src/assets/leila-navabi.jpeg",
+    photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    price: "$28",
   },
   {
     id: nanoid(),
@@ -427,8 +466,9 @@ export const eventsItemsDetails = [
     date: "16.11.23",
     locality: "MAST Studio",
     city: "Southampton",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -437,8 +477,9 @@ export const eventsItemsDetails = [
     date: "17.11.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/leila-navabi.jpeg',
-    photoSmall: './src/assets/leila-navabi-small.jpeg',
+    photoNormal: "../src/assets/leila-navabi.jpeg",
+    photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    price: "$13",
   },
   {
     id: nanoid(),
@@ -447,8 +488,9 @@ export const eventsItemsDetails = [
     date: "18.11.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/leila-navabi.jpeg',
-    photoSmall: './src/assets/leila-navabi-small.jpeg',
+    photoNormal: "../src/assets/leila-navabi.jpeg",
+    photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    price: "$14",
   },
   {
     id: nanoid(),
@@ -457,8 +499,9 @@ export const eventsItemsDetails = [
     date: "20.11.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$18",
   },
   {
     id: nanoid(),
@@ -466,9 +509,10 @@ export const eventsItemsDetails = [
     gamesName: "with Sindhu Vee",
     date: "24.11.23",
     locality: "Bush Hall",
-    city: "London",
-    photoNormal: './src/assets/sindhu-vee.png',
-    photoSmall: './src/assets/sindhu-vee-small.png',
+    city: "Manchester",
+    photoNormal: "../src/assets/sindhu-vee.png",
+    photoSmall: "../src/assets/sindhu-vee-small.png",
+    price: "$28",
   },
   {
     id: nanoid(),
@@ -477,8 +521,9 @@ export const eventsItemsDetails = [
     date: "25.11.23",
     locality: "Royal & Derngate",
     city: "Northampton",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -487,8 +532,9 @@ export const eventsItemsDetails = [
     date: "27.11.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -497,8 +543,9 @@ export const eventsItemsDetails = [
     date: "29.11.23",
     locality: "Liberty Hall",
     city: "Dublin",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$11",
   },
   {
     id: nanoid(),
@@ -507,8 +554,9 @@ export const eventsItemsDetails = [
     date: "30.11.23",
     locality: "Limelight",
     city: "Belfast",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$13",
   },
   {
     id: nanoid(),
@@ -517,8 +565,9 @@ export const eventsItemsDetails = [
     date: "03.12.23",
     locality: "Corn Exchange",
     city: "Brighton",
-    photoNormal: './src/assets/rhys.png',
-    photoSmall: './src/assets/rhys-small.jpeg',
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    price: "$24",
   },
   {
     id: nanoid(),
@@ -527,8 +576,9 @@ export const eventsItemsDetails = [
     date: "04.12.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$30",
   },
   {
     id: nanoid(),
@@ -537,8 +587,9 @@ export const eventsItemsDetails = [
     date: "05.12.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/janie.jpeg',
-    photoSmall: './src/assets/janie-small.png',
+    photoNormal: "../src/assets/janie.jpeg",
+    photoSmall: "../src/assets/janie-small.png",
+    price: "$24",
   },
   {
     id: nanoid(),
@@ -547,8 +598,9 @@ export const eventsItemsDetails = [
     date: "06.12.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/janie.jpeg',
-    photoSmall: './src/assets/janie-small.png',
+    photoNormal: "../src/assets/janie.jpeg",
+    photoSmall: "../src/assets/janie-small.png",
+    price: "$25",
   },
   {
     id: nanoid(),
@@ -557,8 +609,9 @@ export const eventsItemsDetails = [
     date: "07.12.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/janie.jpeg',
-    photoSmall: './src/assets/janie-small.png',
+    photoNormal: "../src/assets/janie.jpeg",
+    photoSmall: "../src/assets/janie-small.png",
+    price: "$15",
   },
   {
     id: nanoid(),
@@ -567,8 +620,9 @@ export const eventsItemsDetails = [
     date: "08.12.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/janie.jpeg',
-    photoSmall: './src/assets/janie-small.png',
+    photoNormal: "../src/assets/janie.jpeg",
+    photoSmall: "../src/assets/janie-small.png",
+    price: "$28",
   },
   {
     id: nanoid(),
@@ -577,8 +631,9 @@ export const eventsItemsDetails = [
     date: "08.12.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/janie.jpeg',
-    photoSmall: './src/assets/janie-small.png',
+    photoNormal: "../src/assets/janie.jpeg",
+    photoSmall: "../src/assets/janie-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -587,8 +642,9 @@ export const eventsItemsDetails = [
     date: "09.12.23",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/janie.jpeg',
-    photoSmall: './src/assets/janie-small.png',
+    photoNormal: "../src/assets/janie.jpeg",
+    photoSmall: "../src/assets/janie-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -596,9 +652,10 @@ export const eventsItemsDetails = [
     gamesName: "with Catherine Bohart",
     date: "11.12.23",
     locality: "Soho Theatre",
-    city: "London",
-    photoNormal: './src/assets/catherine.png',
-    photoSmall: './src/assets/catherine-small.png',
+    city: "Oxford",
+    photoNormal: "../src/assets/catherine.png",
+    photoSmall: "../src/assets/catherine-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -607,8 +664,9 @@ export const eventsItemsDetails = [
     date: "11.12.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$26",
   },
   {
     id: nanoid(),
@@ -617,8 +675,9 @@ export const eventsItemsDetails = [
     date: "18.12.23",
     locality: "Arts Theatre West End",
     city: "London",
-    photoNormal: './src/assets/austentatious.png',
-    photoSmall: './src/assets/austentatious-small.jpeg',
+    photoNormal: "../src/assets/austentatious.png",
+    photoSmall: "../src/assets/austentatious-small.jpeg",
+    price: "$24",
   },
   {
     id: nanoid(),
@@ -626,9 +685,10 @@ export const eventsItemsDetails = [
     gamesName: "Going Under",
     date: "10.01.24",
     locality: "Soho Theatre",
-    city: "London",
-    photoNormal: './src/assets/dan-tiernan.png',
-    photoSmall: './src/assets/dan-tiernan-small.png',
+    city: "Oxford",
+    photoNormal: "../src/assets/dan-tiernan.png",
+    photoSmall: "../src/assets/dan-tiernan-small.png",
+    price: "$30",
   },
   {
     id: nanoid(),
@@ -636,9 +696,10 @@ export const eventsItemsDetails = [
     gamesName: "Going Under",
     date: "11.01.24",
     locality: "Soho Theatre",
-    city: "London",
-    photoNormal: './src/assets/dan-tiernan.png',
-    photoSmall: './src/assets/dan-tiernan-small.png',
+    city: "Oxford",
+    photoNormal: "../src/assets/dan-tiernan.png",
+    photoSmall: "../src/assets/dan-tiernan-small.png",
+    price: "$13",
   },
   {
     id: nanoid(),
@@ -647,8 +708,9 @@ export const eventsItemsDetails = [
     date: "12.01.24",
     locality: "Soho Theatre",
     city: "London",
-    photoNormal: './src/assets/dan-tiernan.png',
-    photoSmall: './src/assets/dan-tiernan-small.png',
+    photoNormal: "../src/assets/dan-tiernan.png",
+    photoSmall: "../src/assets/dan-tiernan-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -656,9 +718,10 @@ export const eventsItemsDetails = [
     gamesName: "Going Under",
     date: "13.01.24",
     locality: "Soho Theatre",
-    city: "London",
-    photoNormal: './src/assets/dan-tiernan.png',
-    photoSmall: './src/assets/dan-tiernan-small.png',
+    city: "Oxford",
+    photoNormal: "../src/assets/dan-tiernan.png",
+    photoSmall: "../src/assets/dan-tiernan-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -667,8 +730,9 @@ export const eventsItemsDetails = [
     date: "09.02.24",
     locality: "Y Theatre",
     city: "Leicester",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$10",
   },
   {
     id: nanoid(),
@@ -677,8 +741,9 @@ export const eventsItemsDetails = [
     date: "16.02.24",
     locality: "Keay Theatre",
     city: "Plymouth",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -687,8 +752,9 @@ export const eventsItemsDetails = [
     date: "18.02.24",
     locality: "Quad Theatre",
     city: "Plymouth",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -697,8 +763,9 @@ export const eventsItemsDetails = [
     date: "22.02.24",
     locality: "Arts Centre",
     city: "Swindon",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -707,8 +774,9 @@ export const eventsItemsDetails = [
     date: "23.02.24",
     locality: "Leicester Square Theatre",
     city: "London",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -717,8 +785,9 @@ export const eventsItemsDetails = [
     date: "01.03.24",
     locality: "Guildhall",
     city: "Gloucester",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -727,8 +796,9 @@ export const eventsItemsDetails = [
     date: "02.03.24",
     locality: "1532",
     city: "Bristol",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -737,8 +807,9 @@ export const eventsItemsDetails = [
     date: "03.03.24",
     locality: "Wedgewood Rooms",
     city: "Portsmouth",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -747,8 +818,9 @@ export const eventsItemsDetails = [
     date: "08.03.24",
     locality: "The Lowry",
     city: "Salford",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -757,8 +829,9 @@ export const eventsItemsDetails = [
     date: "09.03.24",
     locality: "How water Comedy Club",
     city: "Liverpool",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -767,8 +840,9 @@ export const eventsItemsDetails = [
     date: "14.03.24",
     locality: "Glee",
     city: "Oxford",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -777,8 +851,9 @@ export const eventsItemsDetails = [
     date: "15.03.24",
     locality: "City Varieties",
     city: "Leeds",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -787,8 +862,9 @@ export const eventsItemsDetails = [
     date: "17.04.24",
     locality: "Theatre Royal",
     city: "Winchester",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -797,8 +873,9 @@ export const eventsItemsDetails = [
     date: "18.04.24",
     locality: "The Forge",
     city: "Brighton",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -807,8 +884,9 @@ export const eventsItemsDetails = [
     date: "21.04.24",
     locality: "Glee",
     city: "Birmingham",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -817,8 +895,9 @@ export const eventsItemsDetails = [
     date: "23.04.24",
     locality: "Limelight",
     city: "Belfast",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -827,8 +906,9 @@ export const eventsItemsDetails = [
     date: "24.04.24",
     locality: "Coughlan's",
     city: "Cork",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -837,8 +917,9 @@ export const eventsItemsDetails = [
     date: "25.04.24",
     locality: "Whelan's",
     city: "Dublin",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -847,8 +928,9 @@ export const eventsItemsDetails = [
     date: "30.04.24",
     locality: "The Stand",
     city: "Newcastle",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -857,8 +939,9 @@ export const eventsItemsDetails = [
     date: "01.05.24",
     locality: "The Stand",
     city: "Edinburgh",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -867,8 +950,9 @@ export const eventsItemsDetails = [
     date: "02.05.24",
     locality: "The Stand",
     city: "Glasgow",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -877,8 +961,9 @@ export const eventsItemsDetails = [
     date: "09.05.24",
     locality: "Arts Centre",
     city: "Stockton",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -887,8 +972,9 @@ export const eventsItemsDetails = [
     date: "18.05.24",
     locality: "Junction",
     city: "Cambridge",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -897,8 +983,9 @@ export const eventsItemsDetails = [
     date: "22.05.24",
     locality: "Leadmill",
     city: "Sheffield",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -907,8 +994,9 @@ export const eventsItemsDetails = [
     date: "30.05.24",
     locality: "Little Theatre",
     city: "Chorley",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -917,8 +1005,9 @@ export const eventsItemsDetails = [
     date: "01.06.24",
     locality: "Theatre Severn",
     city: "Shrewbury",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -927,8 +1016,9 @@ export const eventsItemsDetails = [
     date: "05.06.24",
     locality: "Glee",
     city: "Cardiff",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -937,8 +1027,9 @@ export const eventsItemsDetails = [
     date: "06.06.24",
     locality: "Phoenix",
     city: "Exeter",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -947,8 +1038,9 @@ export const eventsItemsDetails = [
     date: "07.06.24",
     locality: "Playhouse",
     city: "Norwich",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -957,8 +1049,9 @@ export const eventsItemsDetails = [
     date: "13.06.24",
     locality: "Arts Centre",
     city: "Colchester",
-    photoNormal: './src/assets/new-fin-taylor.png',
-    photoSmall: './src/assets/new-fin-taylor-small.png',
+    photoNormal: "../src/assets/new-fin-taylor.png",
+    photoSmall: "../src/assets/new-fin-taylor-small.png",
+    price: "$17",
   },
 ];
 
@@ -966,309 +1059,309 @@ export const navLinks = [
   {
     id: nanoid(),
     name: "What's On",
-    link: 'events',
+    link: "events",
   },
   {
     id: nanoid(),
-    name: 'About',
-    link: 'about'
+    name: "About",
+    link: "about",
   },
   {
     id: nanoid(),
-    name: 'Jobs',
-    link: 'about/jobs'
+    name: "Jobs",
+    link: "about/jobs",
   },
   {
     id: nanoid(),
-    name: 'Archive',
-    link: 'about/archive'
+    name: "Archive",
+    link: "about/archive",
   },
 ];
 
 export const eventCities = [
   {
     id: nanoid(),
-    city: 'Andover',
-    link: 'andover',
+    city: "Andover",
+    link: "andover",
   },
   {
     id: nanoid(),
-    city: 'Bernard Castle',
-    link: 'bernard-castle'
+    city: "Bernard Castle",
+    link: "bernard-castle",
   },
   {
     id: nanoid(),
-    city: 'Belfast',
-    link: 'belfast',
+    city: "Belfast",
+    link: "belfast",
   },
   {
     id: nanoid(),
-    city: 'Birmingham',
-    link: 'birmingham'
+    city: "Birmingham",
+    link: "birmingham",
   },
   {
     id: nanoid(),
-    city: 'Brighton',
-    link: 'brighton',
+    city: "Brighton",
+    link: "brighton",
   },
   {
     id: nanoid(),
-    city: 'Bristol',
-    link: 'bristol'
+    city: "Bristol",
+    link: "bristol",
   },
   {
     id: nanoid(),
-    city: 'Cambrdige',
-    link: 'cambridge'
+    city: "Cambrdige",
+    link: "cambridge",
   },
   {
     id: nanoid(),
-    city: 'Cardiff',
-    link: 'cardiff'
+    city: "Cardiff",
+    link: "cardiff",
   },
   {
     id: nanoid(),
-    city: 'Canterbury',
-    link: 'canterbury'
+    city: "Canterbury",
+    link: "canterbury",
   },
   {
     id: nanoid(),
-    city: 'Chelmsford',
-    link: 'chelmsford'
+    city: "Chelmsford",
+    link: "chelmsford",
   },
   {
     id: nanoid(),
-    city: 'Chorley',
-    link: 'chorley'
+    city: "Chorley",
+    link: "chorley",
   },
   {
     id: nanoid(),
-    city: 'Cork',
-    link: 'cork'
+    city: "Cork",
+    link: "cork",
   },
   {
     id: nanoid(),
-    city: 'Coventry',
-    link: 'coventry'
+    city: "Coventry",
+    link: "coventry",
   },
   {
     id: nanoid(),
-    city: 'Dublin',
-    link: 'dublin'
+    city: "Dublin",
+    link: "dublin",
   },
   {
     id: nanoid(),
-    city: 'Edinburgh',
-    link: 'edinburgh'
+    city: "Edinburgh",
+    link: "edinburgh",
   },
   {
     id: nanoid(),
-    city: 'Exeter',
-    link: 'exeter'
+    city: "Exeter",
+    link: "exeter",
   },
   {
     id: nanoid(),
-    city: 'Folkestone',
-    link: 'folkestone'
+    city: "Folkestone",
+    link: "folkestone",
   },
   {
     id: nanoid(),
-    city: 'Glasgow',
-    link: 'glasgow'
+    city: "Glasgow",
+    link: "glasgow",
   },
   {
     id: nanoid(),
-    city: 'Gloucester',
-    link: 'gloucester'
+    city: "Gloucester",
+    link: "gloucester",
   },
   {
     id: nanoid(),
-    city: 'Henly-On-Thames',
-    link: 'henly-on-thames'
+    city: "Henly-On-Thames",
+    link: "henly-on-thames",
   },
   {
     id: nanoid(),
-    city: 'Hexham',
-    link: 'hexham'
+    city: "Hexham",
+    link: "hexham",
   },
   {
     id: nanoid(),
-    city: 'Horsham',
-    link: 'horsham'
+    city: "Horsham",
+    link: "horsham",
   },
   {
     id: nanoid(),
-    city: 'Hull',
-    link: 'hull'
+    city: "Hull",
+    link: "hull",
   },
   {
     id: nanoid(),
-    city: 'Kendal',
-    link: 'kendal'
+    city: "Kendal",
+    link: "kendal",
   },
   {
     id: nanoid(),
-    city: 'Lancaster',
-    link: 'lancaster'
+    city: "Lancaster",
+    link: "lancaster",
   },
   {
     id: nanoid(),
-    city: 'Leeds',
-    link: 'leeds'
+    city: "Leeds",
+    link: "leeds",
   },
   {
     id: nanoid(),
-    city: 'Leicester',
-    link: 'leicester'
+    city: "Leicester",
+    link: "leicester",
   },
   {
     id: nanoid(),
-    city: 'Lincoln',
-    link: 'lincoln'
+    city: "Lincoln",
+    link: "lincoln",
   },
   {
     id: nanoid(),
-    city: 'Liverpool',
-    link: 'liverpool'
+    city: "Liverpool",
+    link: "liverpool",
   },
   {
     id: nanoid(),
-    city: 'London',
-    link: 'london'
+    city: "London",
+    link: "london",
   },
   {
     id: nanoid(),
-    city: 'Maidenhead',
-    link: 'maidenhead'
+    city: "Maidenhead",
+    link: "maidenhead",
   },
   {
     id: nanoid(),
-    city: 'Manchester',
-    link: 'manchester'
+    city: "Manchester",
+    link: "manchester",
   },
   {
     id: nanoid(),
-    city: 'Newbury',
-    link: 'newbury'
+    city: "Newbury",
+    link: "newbury",
   },
   {
     id: nanoid(),
-    city: 'Newcastle',
-    link: 'newcastle'
+    city: "Newcastle",
+    link: "newcastle",
   },
   {
     id: nanoid(),
-    city: 'Northampton',
-    link: 'northampton'
+    city: "Northampton",
+    link: "northampton",
   },
   {
     id: nanoid(),
-    city: 'Northallerton',
-    link: 'northallerton'
+    city: "Northallerton",
+    link: "northallerton",
   },
   {
     id: nanoid(),
-    city: 'Norwich',
-    link: 'norwich'
+    city: "Norwich",
+    link: "norwich",
   },
   {
     id: nanoid(),
-    city: 'Nottingham',
-    link: 'nottingham'
+    city: "Nottingham",
+    link: "nottingham",
   },
   {
     id: nanoid(),
-    city: 'Oxford',
-    link: 'oxford'
+    city: "Oxford",
+    link: "oxford",
   },
   {
     id: nanoid(),
-    city: 'Plymouth',
-    link: 'plymouth'
+    city: "Plymouth",
+    link: "plymouth",
   },
   {
     id: nanoid(),
-    city: 'Portsmouth',
-    link: 'portsmouth'
+    city: "Portsmouth",
+    link: "portsmouth",
   },
   {
     id: nanoid(),
-    city: 'Reading',
-    link: 'reading'
+    city: "Reading",
+    link: "reading",
   },
   {
     id: nanoid(),
-    city: 'Salford',
-    link: 'salford'
+    city: "Salford",
+    link: "salford",
   },
   {
     id: nanoid(),
-    city: 'Sheffield',
-    link: 'sheffield'
+    city: "Sheffield",
+    link: "sheffield",
   },
   {
     id: nanoid(),
-    city: 'Shrewbury',
-    link: 'shrewbury'
+    city: "Shrewbury",
+    link: "shrewbury",
   },
   {
     id: nanoid(),
-    city: 'Southampton',
-    link: 'southampton'
+    city: "Southampton",
+    link: "southampton",
   },
   {
     id: nanoid(),
-    city: 'St Austell',
-    link: 'st-austell'
+    city: "St Austell",
+    link: "st-austell",
   },
   {
     id: nanoid(),
-    city: 'Stafford',
-    link: 'stafford'
+    city: "Stafford",
+    link: "stafford",
   },
   {
     id: nanoid(),
-    city: 'Stockton',
-    link: 'stockton'
+    city: "Stockton",
+    link: "stockton",
   },
   {
     id: nanoid(),
-    city: 'Sunderland',
-    link: 'sunderland'
+    city: "Sunderland",
+    link: "sunderland",
   },
   {
     id: nanoid(),
-    city: 'Southport',
-    link: 'southport'
+    city: "Southport",
+    link: "southport",
   },
   {
     id: nanoid(),
-    city: 'Swindon',
-    link: 'swindon'
+    city: "Swindon",
+    link: "swindon",
   },
   {
     id: nanoid(),
-    city: 'Tunbridge Wells',
-    link: 'tunbridge-wells'
+    city: "Tunbridge Wells",
+    link: "tunbridge-wells",
   },
   {
     id: nanoid(),
-    city: 'Wells',
-    link: 'wells'
+    city: "Wells",
+    link: "wells",
   },
   {
     id: nanoid(),
-    city: 'Winchester',
-    link: 'winchester'
+    city: "Winchester",
+    link: "winchester",
   },
   {
     id: nanoid(),
-    city: 'Worcester',
-    link:' worcester'
+    city: "Worcester",
+    link: "worcester",
   },
   {
     id: nanoid(),
-    city: 'New York (NYC)',
-    link: 'new-york'
+    city: "New York (NYC)",
+    link: "new-york",
   },
 ];

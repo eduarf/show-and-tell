@@ -35,7 +35,7 @@ function App() {
         },
         ...eventCities.map(city => ({
           path: `/events/${city.link}`,
-          element: <Location city={city.link} />
+          element: <Location city={city.city} />
         }))
       ],
     },

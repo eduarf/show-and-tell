@@ -6,6 +6,7 @@ import { MdTableRows } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { onRow, offRow } from "../../features/eventListSlice";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const StyledEvents = styled.section`
   background-color: var(--color-primary);
@@ -39,7 +40,7 @@ const StyledCityList = styled.div`
   }
 `;
 
-const StyledCityLink = styled.a`
+const StyledCityLink = styled(Link)`
   /* display: ${(props) =>
     !props.$isIncludes || props.$isHidden ? "none" : "block"}; */
   font-size: 1.8rem;
@@ -140,7 +141,7 @@ export default function CitySearch() {
           <StyledCityList>
             {eventCitiesItems.map((item) => {
                 const whLocation = location.pathname === `/events/${item.link}`;
-              return <StyledCityLink key={item.id} $location={whLocation}>{item.city}</StyledCityLink>;
+              return <StyledCityLink to={`/events/${item.link}`} key={item.id} $location={whLocation}>{item.city}</StyledCityLink>;
             })}
             <StyledSeeMore onClick={() => setIsHidden(0)} $isHidden={isHidden}>
               {"SEE ALL"}
