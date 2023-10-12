@@ -47,8 +47,9 @@ const StyledCityLink = styled(Link)`
   cursor: pointer;
   color: var(--color-text);
   /* color: ${(props) => (props.$isIncludes ? "red" : "blue")}; */
-  text-decoration: ${props => props.$location ? 'underline' : 'none'};
-  color: ${props => props.$location ? 'var(--color-blue)' : 'var(--color-text)'};
+  text-decoration: ${(props) => (props.$location ? "underline" : "none")};
+  color: ${(props) =>
+    props.$location ? "var(--color-blue)" : "var(--color-text)"};
   &:hover {
     text-decoration: underline;
   }
@@ -128,6 +129,14 @@ const StyledRowIcon = styled(MdTableRows)`
   color: ${(props) => (props.$isRow ? "black" : "#c1c1c1")};
 `;
 
+const StyledShowEveryWhere = styled(Link)`
+  font-size: 1.8rem;
+  color: var(--color-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+`;
+
 export default function CitySearch() {
   const [isHidden, setIsHidden] = useState(-(eventCities.length / 2));
   const eventCitiesItems = eventCities.slice(isHidden);
@@ -139,9 +148,20 @@ export default function CitySearch() {
       <StyledTopContainer>
         <StyledLeftContainer>
           <StyledCityList>
+            {location.pathname !== "/events" ? (
+              <StyledShowEveryWhere to='/events'>Show EveryWhere</StyledShowEveryWhere>
+            ) : null}
             {eventCitiesItems.map((item) => {
-                const whLocation = location.pathname === `/events/${item.link}`;
-              return <StyledCityLink to={`/events/${item.link}`} key={item.id} $location={whLocation}>{item.city}</StyledCityLink>;
+              const whLocation = location.pathname === `/events/${item.link}`;
+              return (
+                <StyledCityLink
+                  to={`/events/${item.link}`}
+                  key={item.id}
+                  $location={whLocation}
+                >
+                  {item.city}
+                </StyledCityLink>
+              );
             })}
             <StyledSeeMore onClick={() => setIsHidden(0)} $isHidden={isHidden}>
               {"SEE ALL"}

@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import WhatsOn from "./pages/whats-on/WhatsOn";
@@ -30,13 +30,13 @@ function App() {
           element: <WhatsOn />,
         },
         {
-          path: '/about',
-          element: <About />
+          path: "/about",
+          element: <About />,
         },
-        ...eventCities.map(city => ({
+        ...eventCities.map((city) => ({
           path: `/events/${city.link}`,
-          element: <Location city={city.city} />
-        }))
+          element: <Location city={city.city} />,
+        })),
       ],
     },
   ];
@@ -44,7 +44,7 @@ function App() {
   const router = createBrowserRouter(routes);
 
   return (
-    <div style={{ overflow: 'hidden' }}>
+    <div style={{ overflow: "hidden" }}>
       <RouterProvider router={router} />
     </div>
   );
