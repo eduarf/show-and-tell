@@ -16,7 +16,7 @@ const NavContainer = styled.div`
 `;
 
 const LogoContainer = styled.div`
-  cursor: pointer;
+  /* cursor: pointer; */
   &:hover span:first-child {
     transform: rotate(25deg);
   }
@@ -53,13 +53,14 @@ const NavList = styled.ul`
 `;
 const NavItem = styled(Link)`
   font-size: 2.6rem;
-  cursor: pointer;
-  color: ${props => props.$location ? 'var(--color-blue)' : 'var(--color-text)'};
-  border-bottom: ${props => props.$location ? '2px solid var(--color-blue)' : 'none'};
+  /* cursor: pointer; */
+  color: ${(props) =>
+    props.$location ? "var(--color-blue)" : "var(--color-text)"};
+  border-bottom: ${(props) =>
+    props.$location ? "2px solid var(--color-blue)" : "none"};
 `;
 const AboutLi = styled(Link)`
   font-size: 2.6rem;
-  cursor: pointer;
   position: relative;
   color: var(--color-text);
 `;
@@ -67,12 +68,12 @@ const AboutLi = styled(Link)`
 const ResponsiveLink = styled.a`
   font-size: 2.6rem;
   display: block;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: var(--color-text);
   position: relative;
   z-index: 9999;
   transform: ${(props) => (props.$isOpen ? "rotate(20deg)" : "rotate(0)")};
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform-origin: right;
   @media only screen and (min-width: 720px) {
     display: none;
@@ -80,6 +81,11 @@ const ResponsiveLink = styled.a`
   @media only screen and (max-width: 720px) {
     font-size: 2.2rem;
   }
+`;
+
+const StyledAboutSpan = styled.span`
+    cursor: pointer;
+    display: inline-block;
 `;
 
 const Navbar = () => {
@@ -97,17 +103,26 @@ const Navbar = () => {
       </LogoContainer>
       <NavBar>
         <NavList>
-          <NavItem to="/events" $location={location.pathname.startsWith('/events')}>{`What's on`}</NavItem>
-          <AboutLi
-            onMouseEnter={() => dispatch(onDropdown())}
-            onMouseLeave={() => dispatch(offDropdown())}
-            to="/about"
-          >
-            About
+          <NavItem
+            to="/events"
+            $location={location.pathname.startsWith("/events")}
+          >{`What's On`}</NavItem>
+          <AboutLi to="/about">
+            <StyledAboutSpan
+              onMouseEnter={() => dispatch(onDropdown())}
+              onMouseLeave={() => dispatch(offDropdown())}
+            >
+              About
+            </StyledAboutSpan>
             <AboutDropdown />
           </AboutLi>
         </NavList>
-        <ResponsiveLink $isOpen={isOpen} onClick={() => dispatch(toggleMenuDropdown())}>{!isOpen ? 'Menu' : 'Close'}</ResponsiveLink>
+        <ResponsiveLink
+          $isOpen={isOpen}
+          onClick={() => dispatch(toggleMenuDropdown())}
+        >
+          {!isOpen ? "Menu" : "Close"}
+        </ResponsiveLink>
       </NavBar>
       <ResponsiveMenu />
     </NavContainer>

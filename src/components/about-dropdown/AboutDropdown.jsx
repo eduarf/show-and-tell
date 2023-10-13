@@ -1,6 +1,8 @@
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import styled from "styled-components";
+import { onDropdown ,offDropdown } from "../../features/aboutDropdownSlice";
+import { useDispatch } from "react-redux";
 
 const StyledAboutDropdown = styled.div`
   position: absolute;
@@ -15,6 +17,17 @@ const StyledAboutDropdown = styled.div`
   display: grid;
   place-items: center;
   z-index: 10;
+  opacity: ${(props) => (props.$isOpen ? "1" : "0")};
+  cursor: ${(props) => (props.$isOpen ? "pointer" : "default")};
+  visibility: ${props => props.$isOpen ? 'visible' : 'hidden'};
+  &::before {
+    content: '';
+    height: 3rem;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    top: -10%;
+  }
 `;
 const StyledList = styled.ul`
   display: flex;
@@ -30,18 +43,23 @@ const StyledItem = styled.li`
 
 const AboutDropdown = () => {
   const isOpen = useSelector((state) => state.aboutDropdown.isOpen);
+  const dispatch = useDispatch();
 
   // useMemo kullanarak bileşenin sadece isOpen değiştiğinde yeniden render edilmesini sağlama
   const memoizedComponent = useMemo(() => {
     return (
-      <StyledAboutDropdown $isOpen={isOpen}>
+      <StyledAboutDropdown
+        onMouseLeave={() => dispatch(offDropdown())}
+        onMouseEnter={() => dispatch(onDropdown())}
+        $isOpen={isOpen}
+      >
         <StyledList>
           <StyledItem>Jobs</StyledItem>
           <StyledItem>Archive</StyledItem>
         </StyledList>
       </StyledAboutDropdown>
     );
-  }, [isOpen]);
+  }, [dispatch, isOpen]);
 
   return memoizedComponent;
 };
