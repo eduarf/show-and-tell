@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet, useLocation } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import WhatsOn from "./pages/whats-on/WhatsOn";
@@ -6,13 +6,16 @@ import About from "./pages/about/About";
 import { eventCities } from "../data";
 import Location from "./pages/location/Location";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const Layout = () => {
+    const location = useLocation();
     return (
       <>
         <Navbar />
         <Outlet />
+        {location.pathname !== '/' ? <Footer /> : null}
       </>
     );
   };

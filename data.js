@@ -1365,3 +1365,35 @@ export const eventCities = [
     link: "new-york",
   },
 ];
+
+
+export const footerItems = [
+  {
+    id: nanoid(),
+    headingAdress: 'UK',
+    company: 'Show And Tell Productions Ltd',
+    region: '82 Southwark Bridge Rd',
+    country: 'london',
+    postcode: 'SE1 0EX',
+    phone: '0207 183 5875',
+    mail: 'hello@showandtelluk.com', 
+  },
+  {
+    id: nanoid(),
+    headingAdress: 'US',
+    company: 'Show And Tell LLC',
+    region: '244 Fifth Ave Suite S223',
+    country: 'New york',
+    postcode: 'NY 10001',
+    phone: '929 313 7875',
+    mail: 'hello@showandtelluk.com',
+  },
+];
+
+export const footerLinks = [
+  {
+    id: nanoid(),
+    socials: ['instagram', 'tiktok', 'twitter', 'youtube'],
+  },
+];
+
