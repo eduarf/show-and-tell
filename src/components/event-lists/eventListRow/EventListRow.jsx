@@ -2,6 +2,7 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import { eventsItemsDetails } from "../../../../data";
 import { useLocation } from "react-router-dom";
+import NoEvent from "../../no-event/NoEvent";
 
 const StyledEventListRow = styled.div`
   letter-spacing: -0.6px;
@@ -98,47 +99,51 @@ const EventListRow = ({ filterDataRow }) => {
   const location = useLocation();
   return (
     <StyledEventListRow>
-      <StyledList>
-        {location.pathname === "/events"
-          ? eventsItemsDetails.map((item, index) => {
-              const firstItem = index === 0;
-              return (
-                <StyledItem key={item.id} $firstItem={firstItem}>
-                  <StyledItemImg src={item.photoSmall} />
-                  <StyledItemLeftContainer>
-                    <StyledItemEvent>
-                      {item.group}: {item.gamesName}
-                    </StyledItemEvent>
-                    <StyledItemShowDate>{item.date}</StyledItemShowDate>
-                    <StyledItemVenue>{item.locality}</StyledItemVenue>
-                  </StyledItemLeftContainer>
+      {filterDataRow?.length === 0 && location.pathname !== "/events" ? (
+        <NoEvent />
+      ) : (
+        <StyledList>
+          {location.pathname === "/events"
+            ? eventsItemsDetails.map((item, index) => {
+                const firstItem = index === 0;
+                return (
+                  <StyledItem key={item.id} $firstItem={firstItem}>
+                    <StyledItemImg src={item.photoSmall} />
+                    <StyledItemLeftContainer>
+                      <StyledItemEvent>
+                        {item.group}: {item.gamesName}
+                      </StyledItemEvent>
+                      <StyledItemShowDate>{item.date}</StyledItemShowDate>
+                      <StyledItemVenue>{item.locality}</StyledItemVenue>
+                    </StyledItemLeftContainer>
 
-                  <StyledItemRightContainer>
-                    <StyledItemBuyNow>Buy Now</StyledItemBuyNow>
-                  </StyledItemRightContainer>
-                </StyledItem>
-              );
-            })
-          : filterDataRow.map((item, index) => {
-              const firstItem = index === 0;
-              return (
-                <StyledItem key={item.id} $firstItem={firstItem}>
-                  <StyledItemImg src={item.photoSmall} />
-                  <StyledItemLeftContainer>
-                    <StyledItemEvent>
-                      {item.group}: {item.gamesName}
-                    </StyledItemEvent>
-                    <StyledItemShowDate>{item.date}</StyledItemShowDate>
-                    <StyledItemVenue>{item.locality}</StyledItemVenue>
-                  </StyledItemLeftContainer>
+                    <StyledItemRightContainer>
+                      <StyledItemBuyNow>Buy Now</StyledItemBuyNow>
+                    </StyledItemRightContainer>
+                  </StyledItem>
+                );
+              })
+            : filterDataRow.map((item, index) => {
+                const firstItem = index === 0;
+                return (
+                  <StyledItem key={item.id} $firstItem={firstItem}>
+                    <StyledItemImg src={item.photoSmall} />
+                    <StyledItemLeftContainer>
+                      <StyledItemEvent>
+                        {item.group}: {item.gamesName}
+                      </StyledItemEvent>
+                      <StyledItemShowDate>{item.date}</StyledItemShowDate>
+                      <StyledItemVenue>{item.locality}</StyledItemVenue>
+                    </StyledItemLeftContainer>
 
-                  <StyledItemRightContainer>
-                    <StyledItemPrice>{item.price}</StyledItemPrice>
-                  </StyledItemRightContainer>
-                </StyledItem>
-              );
-            })}
-      </StyledList>
+                    <StyledItemRightContainer>
+                      <StyledItemPrice>{item.price}</StyledItemPrice>
+                    </StyledItemRightContainer>
+                  </StyledItem>
+                );
+              })}
+        </StyledList>
+      )}
     </StyledEventListRow>
   );
 };

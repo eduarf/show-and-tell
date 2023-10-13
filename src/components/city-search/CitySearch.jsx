@@ -131,7 +131,7 @@ const StyledRowIcon = styled(MdTableRows)`
 
 const StyledShowEveryWhere = styled(Link)`
   font-size: 1.8rem;
-  color: var(--color-text);
+  color: var(--color-green);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -1px;

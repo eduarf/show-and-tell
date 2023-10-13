@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
 
+
 *,
 *::before,
 *::after {
@@ -7,12 +8,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+*::selection {
+  background-color: var(--color-darkblue);
+  color: var(--color-primary);
+}
 html {
-  --color-primary: #ffff99;
+  --color-primary: rgb(255, 255, 153);
   --color-text: #1b0f37;
-  --color-green: #1aae7a;
+  --color-green: rgb(26, 174, 122);
   --color-pink: #f6aa9f;
-  --color-blue: #006dff;
+  --color-blue: rgb(0, 109, 255);
+  --color-darkblue: rgb(47, 26, 95);
   --color-white: #fdfdfd;
 }
 html {
