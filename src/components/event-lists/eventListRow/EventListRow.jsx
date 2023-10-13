@@ -99,7 +99,7 @@ const EventListRow = ({ filterDataRow }) => {
   const location = useLocation();
   return (
     <StyledEventListRow>
-      {filterDataRow?.length === 0 && location.pathname !== "/events" ? (
+      { filterDataRow?.length === 0 && location.pathname !== "/events" ? (
         <NoEvent />
       ) : (
         <StyledList>

@@ -7,6 +7,7 @@ const StyledNoEvent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 `;
 
 const StyledFigure = styled.figure``;

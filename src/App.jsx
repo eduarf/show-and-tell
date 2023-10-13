@@ -20,6 +20,7 @@ function App() {
     {
       path: "/",
       element: <Layout />,
+      errorElement: '<h1>Hops</h1>',
       children: [
         {
           path: "/",

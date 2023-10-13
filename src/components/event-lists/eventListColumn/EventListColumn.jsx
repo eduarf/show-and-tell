@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import { eventsItemsDetails } from "../../../../data";
 import { useLocation } from "react-router-dom";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+import NoEvent from "../../no-event/NoEvent";
 
 const StyledEventListColumn = styled.div`
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 3rem;
-  padding: 0 2vw;
+  padding: ${props => props.$filterDataColumn ? 0 : '0 2vw'};
   @media only screen and (max-width: 720px) {
     grid-template-columns: minmax(0, 1fr);
     padding: 0 2rem;
@@ -67,10 +68,8 @@ const StyledCardImg = styled.img`
   width: 100%;
 `;
 
-
 const EventListColumn = ({ filterDataColumn }) => {
   const uniqueItems = {};
-  
 
   eventsItemsDetails.forEach((item) => {
     const key = `${item.group}_${item.gamesName}`;
@@ -82,37 +81,41 @@ const EventListColumn = ({ filterDataColumn }) => {
   const uniqueItemsArray = Object.values(uniqueItems);
 
   const location = useLocation();
-
-    console.log(filterDataColumn);
   return (
-    <StyledEventListColumn>
-      {location.pathname === '/events' ? uniqueItemsArray.map((item, index) => {
-        const indeks = index % 2 === 0 ? true : false;
-        return (
-          <StyledEventCard key={item.id} $indeks={indeks}>
-            <StyledCardTitleContainer>
-              <StyledCardHeading>{item.group}</StyledCardHeading>
-              <StyledDescription>{item.gamesName}</StyledDescription>
-            </StyledCardTitleContainer>
-            <StyledCardImgContainer $indeks={indeks}>
-              <StyledCardImg src={item.photoNormal} />
-            </StyledCardImgContainer>
-          </StyledEventCard>
-        );
-      }) : filterDataColumn.map((item, index) => {
-        const indeks = index % 2 === 0 ? true : false;
-        return (
-          <StyledEventCard key={item.id} $indeks={indeks}>
-            <StyledCardTitleContainer>
-              <StyledCardHeading>{item.group}</StyledCardHeading>
-              <StyledDescription>{item.gamesName}</StyledDescription>
-            </StyledCardTitleContainer>
-            <StyledCardImgContainer $indeks={indeks}>
-              <StyledCardImg src={item.photoNormal} />
-            </StyledCardImgContainer>
-          </StyledEventCard>
-        );
-      })}
+    <StyledEventListColumn $filterDataColumn={filterDataColumn?.length === 0}>
+      {filterDataColumn?.length === 0 && location.pathname !== "/events" ? (
+        <NoEvent />
+      ) : location.pathname === "/events" ? (
+        uniqueItemsArray.map((item, index) => {
+          const indeks = index % 2 === 0 ? true : false;
+          return (
+            <StyledEventCard key={item.id} $indeks={indeks}>
+              <StyledCardTitleContainer>
+                <StyledCardHeading>{item.group}</StyledCardHeading>
+                <StyledDescription>{item.gamesName}</StyledDescription>
+              </StyledCardTitleContainer>
+              <StyledCardImgContainer $indeks={indeks}>
+                <StyledCardImg src={item.photoNormal} />
+              </StyledCardImgContainer>
+            </StyledEventCard>
+          );
+        })
+      ) : (
+        filterDataColumn.map((item, index) => {
+          const indeks = index % 2 === 0 ? true : false;
+          return (
+            <StyledEventCard key={item.id} $indeks={indeks}>
+              <StyledCardTitleContainer>
+                <StyledCardHeading>{item.group}</StyledCardHeading>
+                <StyledDescription>{item.gamesName}</StyledDescription>
+              </StyledCardTitleContainer>
+              <StyledCardImgContainer $indeks={indeks}>
+                <StyledCardImg src={item.photoNormal} />
+              </StyledCardImgContainer>
+            </StyledEventCard>
+          );
+        })
+      )}
     </StyledEventListColumn>
   );
 };
@@ -122,6 +125,3 @@ EventListColumn.propTypes = {
 };
 
 export default EventListColumn;
-
-
-
