@@ -2,7 +2,7 @@ import styled from "styled-components";
 import AboutDropdown from "../about-dropdown/AboutDropdown";
 import { onDropdown, offDropdown } from "../../features/aboutDropdownSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ResponsiveMenu from "../responsive-menu/ResponsiveMenu";
 import { toggleMenuDropdown } from "../../features/menuDropdownSlice";
 
@@ -54,7 +54,8 @@ const NavList = styled.ul`
 const NavItem = styled(Link)`
   font-size: 2.6rem;
   cursor: pointer;
-  color: var(--color-text);
+  color: ${props => props.$location ? 'var(--color-blue)' : 'var(--color-text)'};
+  border-bottom: ${props => props.$location ? '2px solid var(--color-blue)' : 'none'};
 `;
 const AboutLi = styled(Link)`
   font-size: 2.6rem;
@@ -84,6 +85,7 @@ const ResponsiveLink = styled.a`
 const Navbar = () => {
   const dispatch = useDispatch();
   const isOpen = useSelector((state) => state.menuDropdown.isOpen);
+  const location = useLocation();
   return (
     <NavContainer>
       <LogoContainer>
@@ -95,11 +97,11 @@ const Navbar = () => {
       </LogoContainer>
       <NavBar>
         <NavList>
-          <NavItem to="/events">{`What's on`}</NavItem>
+          <NavItem to="/events" $location={location.pathname.startsWith('/events')}>{`What's on`}</NavItem>
           <AboutLi
             onMouseEnter={() => dispatch(onDropdown())}
             onMouseLeave={() => dispatch(offDropdown())}
-            to="about"
+            to="/about"
           >
             About
             <AboutDropdown />
