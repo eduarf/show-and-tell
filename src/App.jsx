@@ -5,6 +5,7 @@ import WhatsOn from "./pages/whats-on/WhatsOn";
 import About from "./pages/about/About";
 import { eventCities } from "../data";
 import Location from "./pages/location/Location";
+import PageNotFound from "./pages/page-not-found/PageNotFound";
 
 function App() {
   const Layout = () => {
@@ -20,7 +21,7 @@ function App() {
     {
       path: "/",
       element: <Layout />,
-      errorElement: '<h1>Hops</h1>',
+      errorElement: <PageNotFound />,
       children: [
         {
           path: "/",
