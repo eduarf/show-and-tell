@@ -20,6 +20,8 @@ const StyledEventListColumn = styled.div`
 const StyledEventCard = styled.div`
   position: relative;
   cursor: pointer;
+  height: 100%;
+  width: 100%;
   background-color: ${(props) =>
     props.$indeks ? "var(--color-green)" : "var(--color-blue)"};
   overflow: hidden;
@@ -49,6 +51,7 @@ const StyledCardImgContainer = styled.div`
   width: 100%;
   position: relative;
   z-index: 3;
+  object-fit: cover;
   @media only screen and (max-width: 720px) {
     transform: ${(props) =>
       props.$indeks
