@@ -28,6 +28,7 @@ export const eventsItemsDetails = [
     city: "Shrewbury",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
   },
   {
@@ -39,6 +40,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$12",
   },
   {
@@ -50,6 +52,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/phil-wang.png",
     photoSmall: "../src/assets/phil-wang-small.png",
+    photoBig: "../src/assets/phil-wang-big.png",
     price: "$17",
   },
   {
@@ -61,6 +64,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/blackwood.png",
     photoSmall: "../src/assets/blackwood-small.png",
+    photoBig: "../src/assets/blackwood-big.png",
     price: "$10",
   },
   {
@@ -72,6 +76,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/stewart-lee.png",
     photoSmall: "../src/assets/stewart-lee-small.png",
+    photoBig: "../src/assets/stewart-lee-big.png",
     price: "$14",
   },
   {
@@ -83,6 +88,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/gamble.png",
     photoSmall: "../src/assets/gamble-small.png",
+    photoBig: "../src/assets/gamble-big.png",
     price: "$20",
   },
   {
@@ -94,6 +100,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/kelechi.png",
     photoSmall: "../src/assets/kelechi-small.png",
+    photoBig: "../src/assets/kelechi-big.png",
     price: "$23",
   },
   {
@@ -105,6 +112,7 @@ export const eventsItemsDetails = [
     city: "Sunderland",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
   },
   {
@@ -116,6 +124,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/fern-brady.png",
     photoSmall: "../src/assets/fern-brady-small.png",
+    photoBig: "../src/assets/fern-brady-big.png",
     price: "$19",
   },
   {
@@ -127,6 +136,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/phil-wang.png",
     photoSmall: "../src/assets/phil-wang-small.png",
+    photoBig: "../src/assets/phil-wang-big.png",
     price: "$11",
   },
   {
@@ -138,6 +148,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/catherine.png",
     photoSmall: "../src/assets/catherine-small.png",
+    photoBig: "../src/assets/micheal-akadiri-big.jpg",
     price: "$10",
   },
   {
@@ -149,6 +160,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$27",
   },
   {
@@ -160,6 +172,7 @@ export const eventsItemsDetails = [
     city: "New York (NYC)",
     photoNormal: "../src/assets/tim-key.jpeg",
     photoSmall: "../src/assets/tim-key-small.jpeg",
+    photoBig: "../src/assets/tim-key-big.jpg",
     price: "$24",
   },
   {
@@ -171,6 +184,7 @@ export const eventsItemsDetails = [
     city: "New York (NYC)",
     photoNormal: "../src/assets/tim-key.jpeg",
     photoSmall: "../src/assets/tim-key-small.jpeg",
+    photoBig: "../src/assets/tim-key-big.jpg",
     price: "$20",
   },
   {
@@ -182,6 +196,7 @@ export const eventsItemsDetails = [
     city: "Birmingham",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
   },
   {
@@ -193,6 +208,7 @@ export const eventsItemsDetails = [
     city: "New York (NYC)",
     photoNormal: "../src/assets/tim-key.jpeg",
     photoSmall: "../src/assets/tim-key-small.jpeg",
+    photoBig: "../src/assets/tim-key-big.jpg",
     price: "$14",
   },
   {
@@ -204,6 +220,7 @@ export const eventsItemsDetails = [
     city: "New York (NYC)",
     photoNormal: "../src/assets/tim-key.jpeg",
     photoSmall: "../src/assets/tim-key-small.jpeg",
+    photoBig: "../src/assets/tim-key-big.jpg",
     price: "$17",
   },
   {
@@ -215,6 +232,7 @@ export const eventsItemsDetails = [
     city: "New York (NYC)",
     photoNormal: "../src/assets/tim-key.jpeg",
     photoSmall: "../src/assets/tim-key-small.jpeg",
+    photoBig: "../src/assets/tim-key-big.jpg",
     price: "$11",
   },
   {
@@ -226,6 +244,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/kerry-godliman.png",
     photoSmall: "../src/assets/kerry-godliman-small.png",
+    photoBig: "../src/assets/kerry-godliman-big.png",
     price: "$16",
   },
   {
@@ -237,6 +256,7 @@ export const eventsItemsDetails = [
     city: "Swindon",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$19",
   },
   {
@@ -248,6 +268,7 @@ export const eventsItemsDetails = [
     city: "Birmingham",
     photoNormal: "../src/assets/rachel-parris.png",
     photoSmall: "../src/assets/rachel-parris-small.png",
+    photoBig: "../src/assets/rachel-parris-big.png",
     price: "$21",
   },
   {
@@ -259,6 +280,7 @@ export const eventsItemsDetails = [
     city: "Birmingham",
     photoNormal: "../src/assets/rachel-parris.png",
     photoSmall: "../src/assets/rachel-parris-small.png",
+    photoBig: "../src/assets/rachel-parris-big.png",
     price: "$23",
   },
   {
@@ -270,6 +292,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$30",
   },
   {
@@ -281,6 +304,7 @@ export const eventsItemsDetails = [
     city: "Gloucester",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
   },
   {
@@ -292,6 +316,7 @@ export const eventsItemsDetails = [
     city: "Worcester",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$17",
   },
   {
@@ -303,6 +328,7 @@ export const eventsItemsDetails = [
     city: "Newbury",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$19",
   },
   {
@@ -314,6 +340,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$14",
   },
   {
@@ -325,6 +352,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/ramy-youssef.png",
     photoSmall: "../src/assets/ramy-youssef-small.png",
+    photoBig: "../src/assets/ramy-youssef-big.png",
     price: "$12",
   },
   {
@@ -336,6 +364,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/ramy-youssef.png",
     photoSmall: "../src/assets/ramy-youssef-small.png",
+    photoBig: "../src/assets/ramy-youssef-big.png",
     price: "$11",
   },
   {
@@ -347,7 +376,8 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/ramy-youssef.png",
     photoSmall: "../src/assets/ramy-youssef-small.png",
-    price: '$17',
+    photoBig: "../src/assets/ramy-youssef-big.png",
+    price: "$17",
   },
   {
     id: nanoid(),
@@ -358,6 +388,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/ramy-youssef.png",
     photoSmall: "../src/assets/ramy-youssef-small.png",
+    photoBig: "../src/assets/ramy-youssef-big.png",
     price: "$30",
   },
   {
@@ -369,6 +400,7 @@ export const eventsItemsDetails = [
     city: "Andover",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$23",
   },
   {
@@ -380,6 +412,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$28",
   },
   {
@@ -391,6 +424,7 @@ export const eventsItemsDetails = [
     city: "Lancaster",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$21",
   },
   {
@@ -402,6 +436,7 @@ export const eventsItemsDetails = [
     city: "Manchester",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$20",
   },
   {
@@ -413,6 +448,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/michael-akadiri.png",
     photoSmall: "../src/assets/micheal-akadiri-small.png",
+    photoBig: "../src/assets/micheal-akadiri-big.jpg",
     price: "$17",
   },
   {
@@ -424,6 +460,7 @@ export const eventsItemsDetails = [
     city: "Manchester",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$11",
   },
   {
@@ -435,6 +472,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/leila-navabi.jpeg",
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$16",
   },
   {
@@ -446,6 +484,7 @@ export const eventsItemsDetails = [
     city: "Manchester",
     photoNormal: "../src/assets/leila-navabi.jpeg",
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$30",
   },
   {
@@ -457,6 +496,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/leila-navabi.jpeg",
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$28",
   },
   {
@@ -468,6 +508,7 @@ export const eventsItemsDetails = [
     city: "Southampton",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$17",
   },
   {
@@ -479,6 +520,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/leila-navabi.jpeg",
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$13",
   },
   {
@@ -490,6 +532,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/leila-navabi.jpeg",
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
+    photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$14",
   },
   {
@@ -501,6 +544,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$18",
   },
   {
@@ -512,6 +556,7 @@ export const eventsItemsDetails = [
     city: "Manchester",
     photoNormal: "../src/assets/sindhu-vee.png",
     photoSmall: "../src/assets/sindhu-vee-small.png",
+    photoBig: "../src/assets/sindhu-vee-big.jpg",
     price: "$28",
   },
   {
@@ -523,6 +568,7 @@ export const eventsItemsDetails = [
     city: "Northampton",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$17",
   },
   {
@@ -534,6 +580,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$10",
   },
   {
@@ -545,6 +592,7 @@ export const eventsItemsDetails = [
     city: "Dublin",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$11",
   },
   {
@@ -556,6 +604,7 @@ export const eventsItemsDetails = [
     city: "Belfast",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$13",
   },
   {
@@ -567,6 +616,7 @@ export const eventsItemsDetails = [
     city: "Brighton",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
     price: "$24",
   },
   {
@@ -578,6 +628,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$30",
   },
   {
@@ -589,6 +640,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/janie.jpeg",
     photoSmall: "../src/assets/janie-small.png",
+    photoBig: "../src/assets/janie-big.png",
     price: "$24",
   },
   {
@@ -600,6 +652,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/janie.jpeg",
     photoSmall: "../src/assets/janie-small.png",
+    photoBig: "../src/assets/janie-big.png",
     price: "$25",
   },
   {
@@ -611,6 +664,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/janie.jpeg",
     photoSmall: "../src/assets/janie-small.png",
+    photoBig: "../src/assets/janie-big.png",
     price: "$15",
   },
   {
@@ -622,6 +676,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/janie.jpeg",
     photoSmall: "../src/assets/janie-small.png",
+    photoBig: "../src/assets/janie-big.png",
     price: "$28",
   },
   {
@@ -633,6 +688,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/janie.jpeg",
     photoSmall: "../src/assets/janie-small.png",
+    photoBig: "../src/assets/janie-big.png",
     price: "$17",
   },
   {
@@ -644,6 +700,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/janie.jpeg",
     photoSmall: "../src/assets/janie-small.png",
+    photoBig: "../src/assets/janie-big.png",
     price: "$17",
   },
   {
@@ -655,6 +712,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/catherine.png",
     photoSmall: "../src/assets/catherine-small.png",
+    photoBig: "../src/assets/micheal-akadiri-big.jpg",
     price: "$17",
   },
   {
@@ -666,6 +724,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$26",
   },
   {
@@ -677,6 +736,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/austentatious.png",
     photoSmall: "../src/assets/austentatious-small.jpeg",
+    photoBig: "../src/assets/austentatious-big.jpg",
     price: "$24",
   },
   {
@@ -688,6 +748,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/dan-tiernan.png",
     photoSmall: "../src/assets/dan-tiernan-small.png",
+    photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$30",
   },
   {
@@ -699,6 +760,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/dan-tiernan.png",
     photoSmall: "../src/assets/dan-tiernan-small.png",
+    photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$13",
   },
   {
@@ -710,6 +772,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/dan-tiernan.png",
     photoSmall: "../src/assets/dan-tiernan-small.png",
+    photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$17",
   },
   {
@@ -721,6 +784,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/dan-tiernan.png",
     photoSmall: "../src/assets/dan-tiernan-small.png",
+    photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$17",
   },
   {
@@ -732,6 +796,7 @@ export const eventsItemsDetails = [
     city: "Leicester",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$10",
   },
   {
@@ -743,6 +808,7 @@ export const eventsItemsDetails = [
     city: "Plymouth",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -754,6 +820,7 @@ export const eventsItemsDetails = [
     city: "Plymouth",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -765,6 +832,7 @@ export const eventsItemsDetails = [
     city: "Swindon",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -776,6 +844,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -787,6 +856,7 @@ export const eventsItemsDetails = [
     city: "Gloucester",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -798,6 +868,7 @@ export const eventsItemsDetails = [
     city: "Bristol",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -809,6 +880,7 @@ export const eventsItemsDetails = [
     city: "Portsmouth",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -820,6 +892,7 @@ export const eventsItemsDetails = [
     city: "Salford",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -831,6 +904,7 @@ export const eventsItemsDetails = [
     city: "Liverpool",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -842,6 +916,7 @@ export const eventsItemsDetails = [
     city: "Oxford",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -853,6 +928,7 @@ export const eventsItemsDetails = [
     city: "Leeds",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -864,6 +940,7 @@ export const eventsItemsDetails = [
     city: "Winchester",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -875,6 +952,7 @@ export const eventsItemsDetails = [
     city: "Brighton",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -886,6 +964,7 @@ export const eventsItemsDetails = [
     city: "Birmingham",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -897,6 +976,7 @@ export const eventsItemsDetails = [
     city: "Belfast",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -908,6 +988,7 @@ export const eventsItemsDetails = [
     city: "Cork",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -919,6 +1000,7 @@ export const eventsItemsDetails = [
     city: "Dublin",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -930,6 +1012,7 @@ export const eventsItemsDetails = [
     city: "Newcastle",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -941,6 +1024,7 @@ export const eventsItemsDetails = [
     city: "Edinburgh",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -952,6 +1036,7 @@ export const eventsItemsDetails = [
     city: "Glasgow",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -963,6 +1048,7 @@ export const eventsItemsDetails = [
     city: "Stockton",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -974,6 +1060,7 @@ export const eventsItemsDetails = [
     city: "Cambridge",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -985,6 +1072,7 @@ export const eventsItemsDetails = [
     city: "Sheffield",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -996,6 +1084,7 @@ export const eventsItemsDetails = [
     city: "Chorley",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -1007,6 +1096,7 @@ export const eventsItemsDetails = [
     city: "Shrewbury",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -1018,6 +1108,7 @@ export const eventsItemsDetails = [
     city: "Cardiff",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -1029,6 +1120,7 @@ export const eventsItemsDetails = [
     city: "Exeter",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -1040,6 +1132,7 @@ export const eventsItemsDetails = [
     city: "Norwich",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
   {
@@ -1051,6 +1144,7 @@ export const eventsItemsDetails = [
     city: "Colchester",
     photoNormal: "../src/assets/new-fin-taylor.png",
     photoSmall: "../src/assets/new-fin-taylor-small.png",
+    photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
   },
 ];
@@ -1366,34 +1460,32 @@ export const eventCities = [
   },
 ];
 
-
 export const footerItems = [
   {
     id: nanoid(),
-    headingAdress: 'UK',
-    company: 'Show And Tell Productions Ltd',
-    region: '82 Southwark Bridge Rd',
-    country: 'LONDON',
-    postcode: 'SE1 0EX',
-    phone: '0207 183 5875',
-    email: 'hello@showandtelluk.com', 
+    headingAdress: "UK",
+    company: "Show And Tell Productions Ltd",
+    region: "82 Southwark Bridge Rd",
+    country: "LONDON",
+    postcode: "SE1 0EX",
+    phone: "0207 183 5875",
+    email: "hello@showandtelluk.com",
   },
   {
     id: nanoid(),
-    headingAdress: 'US',
-    company: 'Show And Tell LLC',
-    region: '244 Fifth Ave Suite S223',
-    country: 'NEW YORK',
-    postcode: 'NY 10001',
-    phone: '929 313 7875',
-    email: 'hello@showandtelluk.com',
+    headingAdress: "US",
+    company: "Show And Tell LLC",
+    region: "244 Fifth Ave Suite S223",
+    country: "NEW YORK",
+    postcode: "NY 10001",
+    phone: "929 313 7875",
+    email: "hello@showandtelluk.com",
   },
 ];
 
 export const footerLinks = [
   {
     id: nanoid(),
-    socials: ['instagram', 'tiktok', 'twitter', 'youtube'],
+    socials: ["instagram", "tiktok", "twitter", "youtube"],
   },
 ];
-
