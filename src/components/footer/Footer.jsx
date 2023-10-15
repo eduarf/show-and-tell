@@ -7,6 +7,9 @@ const StyledFooter = styled.div`
   grid-template-columns: repeat(2, minmax(0, 1fr));
   padding: 2vh 2vw;
   background-color: var(--color-primary);
+  @media only screen and (max-width: 720px){
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 `;
 
 const StyledLeftContainer = styled.div`
@@ -14,15 +17,28 @@ const StyledLeftContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 4rem;
+  @media only screen and (max-width: 1200px){
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @media only screen and (max-width: 900px){
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 0;
+  }
 `;
 const StyledRightContainer = styled.div`
   display: flex;
   justify-content: flex-end;
+  @media only screen and (max-width: 720px){
+    justify-content: flex-start;
+  }
 `;
 
 const StyledLeftPara = styled.p`
   font-weight: 700;
   line-height: 1.2;
+  @media only screen and (max-width: 720px){
+    font-size: 1.5rem;
+  }
 `;
 
 const StyledLink = styled.a`
@@ -42,6 +58,11 @@ const StyledRightPara = styled.p`
   font-weight: 700;
   letter-spacing: -.7px;
   width: 65%;
+  @media only screen and (max-width: 720px){
+    width: 100%;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+  }
 `;
 
 export default function Footer() {
@@ -65,7 +86,6 @@ export default function Footer() {
         })}
         <StyledLinkContainer>
           {footerLinks[0].socials.map((element) => {
-            console.log(element);
             return (
               <StyledLeftPara key={nanoid()}>
                 <StyledLink $true={true}>{element}</StyledLink>
