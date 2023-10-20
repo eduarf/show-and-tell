@@ -2,6 +2,10 @@ import PropTypes from "prop-types";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { changeTheme } from "../../features/themeSlice";
+import styled from "styled-components";
+import EventIntro from "./event-detail-comps/EventIntro";
+
+const StyledEventDetails = styled.div``;
 
 export default function EventDetails({ item }) {
   const dispatch = useDispatch();
@@ -11,7 +15,9 @@ export default function EventDetails({ item }) {
       dispatch(changeTheme('rgb(255, 255, 153)'));
     };
   }, [dispatch, item]);
-  return <div>Event Details</div>;
+  return <StyledEventDetails>
+    <EventIntro comedian={item.group} eventName={item.gamesName} img={item.photoBig} />
+  </StyledEventDetails>;
 }
 
 EventDetails.propTypes = {
