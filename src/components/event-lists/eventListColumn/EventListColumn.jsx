@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { eventsItemsDetails } from "../../../../data";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
 import NoEvent from "../../no-event/NoEvent";
 
@@ -17,7 +17,7 @@ const StyledEventListColumn = styled.div`
     padding: 0 1rem;
   }
 `;
-const StyledEventCard = styled.div`
+const StyledEventCard = styled(Link)`
   position: relative;
   cursor: pointer;
   height: 100%;
@@ -92,7 +92,7 @@ const EventListColumn = ({ filterDataColumn }) => {
         uniqueItemsArray.map((item, index) => {
           const indeks = index % 2 === 0 ? true : false;
           return (
-            <StyledEventCard key={item.id} $indeks={indeks}>
+            <StyledEventCard to={`/events/${item.group.toLowerCase().replace(/\s+/g, '-')}-${item.date.split('.').reverse().join('-')}`} key={item.id} $indeks={indeks}>
               <StyledCardTitleContainer>
                 <StyledCardHeading>{item.group}</StyledCardHeading>
                 <StyledDescription>{item.gamesName}</StyledDescription>

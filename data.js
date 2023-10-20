@@ -30,6 +30,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -42,6 +43,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$12",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -54,6 +56,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/phil-wang-small.png",
     photoBig: "../src/assets/phil-wang-big.png",
     price: "$17",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -66,6 +69,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/blackwood-small.png",
     photoBig: "../src/assets/blackwood-big.png",
     price: "$10",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -78,6 +82,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/stewart-lee-small.png",
     photoBig: "../src/assets/stewart-lee-big.png",
     price: "$14",
+    detailColor: "rgb(0, 109, 255)",
   },
   {
     id: nanoid(),
@@ -90,6 +95,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/gamble-small.png",
     photoBig: "../src/assets/gamble-big.png",
     price: "$20",
+    detailColor: "rgb(0, 109, 255)",
   },
   {
     id: nanoid(),
@@ -102,6 +108,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/kelechi-small.png",
     photoBig: "../src/assets/kelechi-big.png",
     price: "$23",
+    detailColor: "#fc0101",
   },
   {
     id: nanoid(),
@@ -114,6 +121,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -126,6 +134,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/fern-brady-small.png",
     photoBig: "../src/assets/fern-brady-big.png",
     price: "$19",
+    detailColor: "#f6aa9f",
   },
   {
     id: nanoid(),
@@ -138,6 +147,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/phil-wang-small.png",
     photoBig: "../src/assets/phil-wang-big.png",
     price: "$11",
+    detailColor: "rgb(0, 109, 255)",
   },
   {
     id: nanoid(),
@@ -150,6 +160,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/catherine-small.png",
     photoBig: "../src/assets/micheal-akadiri-big.jpg",
     price: "$10",
+    detailColor: "#f6aa9f",
   },
   {
     id: nanoid(),
@@ -162,6 +173,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$27",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -174,6 +186,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/tim-key-small.jpeg",
     photoBig: "../src/assets/tim-key-big.jpg",
     price: "$24",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -186,6 +199,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/tim-key-small.jpeg",
     photoBig: "../src/assets/tim-key-big.jpg",
     price: "$20",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -198,6 +212,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -210,6 +225,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/tim-key-small.jpeg",
     photoBig: "../src/assets/tim-key-big.jpg",
     price: "$14",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -222,6 +238,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/tim-key-small.jpeg",
     photoBig: "../src/assets/tim-key-big.jpg",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -234,6 +251,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/tim-key-small.jpeg",
     photoBig: "../src/assets/tim-key-big.jpg",
     price: "$11",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -246,6 +264,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/kerry-godliman-small.png",
     photoBig: "../src/assets/kerry-godliman-big.png",
     price: "$16",
+    detailColor: "#f6aa9f",
   },
   {
     id: nanoid(),
@@ -258,6 +277,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$19",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -270,6 +290,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rachel-parris-small.png",
     photoBig: "../src/assets/rachel-parris-big.png",
     price: "$21",
+    detailColor: "#e94c88",
   },
   {
     id: nanoid(),
@@ -282,6 +303,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rachel-parris-small.png",
     photoBig: "../src/assets/rachel-parris-big.png",
     price: "$23",
+    detailColor: "#e94c88",
   },
   {
     id: nanoid(),
@@ -294,6 +316,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$30",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -306,6 +329,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$10",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -318,6 +342,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$17",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -330,6 +355,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$19",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -342,6 +368,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$14",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -354,6 +381,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/ramy-youssef-small.png",
     photoBig: "../src/assets/ramy-youssef-big.png",
     price: "$12",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -366,6 +394,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/ramy-youssef-small.png",
     photoBig: "../src/assets/ramy-youssef-big.png",
     price: "$11",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -378,6 +407,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/ramy-youssef-small.png",
     photoBig: "../src/assets/ramy-youssef-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -390,6 +420,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/ramy-youssef-small.png",
     photoBig: "../src/assets/ramy-youssef-big.png",
     price: "$30",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -402,6 +433,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$23",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -414,6 +446,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$28",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -426,6 +459,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$21",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -438,6 +472,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$20",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -450,6 +485,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/micheal-akadiri-small.png",
     photoBig: "../src/assets/micheal-akadiri-big.jpg",
     price: "$17",
+    detailColor: "#ed7d4b",
   },
   {
     id: nanoid(),
@@ -462,6 +498,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$11",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -474,6 +511,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
     photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$16",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -486,6 +524,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
     photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$30",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -498,6 +537,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
     photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$28",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -510,6 +550,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$17",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -522,6 +563,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
     photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$13",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -534,6 +576,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/leila-navabi-small.jpeg",
     photoBig: "../src/assets/leila-navabi-big.jpg",
     price: "$14",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -546,6 +589,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$18",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -558,6 +602,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/sindhu-vee-small.png",
     photoBig: "../src/assets/sindhu-vee-big.jpg",
     price: "$28",
+    detailColor: "#f6aa9f",
   },
   {
     id: nanoid(),
@@ -570,6 +615,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$17",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -582,6 +628,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$10",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -594,6 +641,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$11",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -606,6 +654,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$13",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -618,6 +667,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
     price: "$24",
+    detailColor: "#1aae7a",
   },
   {
     id: nanoid(),
@@ -630,6 +680,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$30",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -642,6 +693,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$24",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -654,6 +706,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$25",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -666,6 +719,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$15",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -678,6 +732,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$28",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -690,6 +745,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$17",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -702,6 +758,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$17",
+    detailColor: "rgb(255, 255, 153)",
   },
   {
     id: nanoid(),
@@ -714,6 +771,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/catherine-small.png",
     photoBig: "../src/assets/micheal-akadiri-big.jpg",
     price: "$17",
+    detailColor: "#f6aa9f",
   },
   {
     id: nanoid(),
@@ -726,6 +784,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$26",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -738,6 +797,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/austentatious-small.jpeg",
     photoBig: "../src/assets/austentatious-big.jpg",
     price: "$24",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -750,6 +810,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/dan-tiernan-small.png",
     photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$30",
+    detailColor: "rgb(26, 174, 122)",
   },
   {
     id: nanoid(),
@@ -762,6 +823,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/dan-tiernan-small.png",
     photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$13",
+    detailColor: "rgb(26, 174, 122)",
   },
   {
     id: nanoid(),
@@ -774,6 +836,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/dan-tiernan-small.png",
     photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$17",
+    detailColor: "rgb(26, 174, 122)",
   },
   {
     id: nanoid(),
@@ -786,6 +849,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/dan-tiernan-small.png",
     photoBig: "../src/assets/dan-tiernan-big.png",
     price: "$17",
+    detailColor: "rgb(26, 174, 122)",
   },
   {
     id: nanoid(),
@@ -798,6 +862,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$10",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -810,6 +875,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -822,6 +888,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -834,6 +901,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -846,6 +914,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -858,6 +927,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -870,6 +940,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -882,6 +953,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -894,6 +966,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -906,6 +979,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -918,6 +992,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -930,6 +1005,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -942,6 +1018,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -954,6 +1031,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -966,6 +1044,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -978,6 +1057,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -990,6 +1070,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1002,6 +1083,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1014,6 +1096,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1026,6 +1109,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1038,6 +1122,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1050,6 +1135,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1062,6 +1148,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1074,6 +1161,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1086,6 +1174,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1098,6 +1187,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1110,6 +1200,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1122,6 +1213,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1134,6 +1226,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
   {
     id: nanoid(),
@@ -1146,6 +1239,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/new-fin-taylor-small.png",
     photoBig: "../src/assets/new-fin-taylor-big.png",
     price: "$17",
+    detailColor: "#f6edd7",
   },
 ];
 

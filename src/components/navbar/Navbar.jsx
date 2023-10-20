@@ -10,7 +10,7 @@ const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3rem;
-  background-color: var(--color-primary);
+  background-color: ${(props) => props.$themeColor};
   font-weight: 700;
   position: relative;
 `;
@@ -54,10 +54,9 @@ const NavList = styled.ul`
 const NavItem = styled(Link)`
   font-size: 2.6rem;
   /* cursor: pointer; */
-  color: ${(props) =>
-    props.$location ? "var(--color-blue)" : "var(--color-text)"};
+  color: var(--color-text);
   border-bottom: ${(props) =>
-    props.$location ? "2px solid var(--color-blue)" : "none"};
+    props.$location ? "2px solid var(--color-text)" : "none"};
 `;
 const AboutLi = styled(Link)`
   font-size: 2.6rem;
@@ -91,9 +90,10 @@ const StyledAboutSpan = styled.span`
 const Navbar = () => {
   const dispatch = useDispatch();
   const isOpen = useSelector((state) => state.menuDropdown.isOpen);
+  const themeColor = useSelector((state) => state.theme.color);
   const location = useLocation();
   return (
-    <NavContainer>
+    <NavContainer $themeColor={themeColor}>
       <LogoContainer>
         <Logo to="/">
           <Span>Show</Span>

@@ -3,10 +3,11 @@ import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import WhatsOn from "./pages/whats-on/WhatsOn";
 import About from "./pages/about/About";
-import { eventCities } from "../data";
+import { eventCities, eventsItemsDetails } from "../data";
 import Location from "./pages/location/Location";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
 import Footer from "./components/footer/Footer";
+import EventDetails from "./pages/event-detail/EventDetails";
 
 function App() {
   const Layout = () => {
@@ -41,6 +42,10 @@ function App() {
         ...eventCities.map((city) => ({
           path: `/events/${city.link}`,
           element: <Location city={city.city} />,
+        })),
+        ...eventsItemsDetails.map((item) => ({
+          path: `/events/${item.group.toLowerCase().replace(/\s+/g, '-')}-${item.date.split('.').reverse().join('-')}`,
+          element: <EventDetails item={item} />,
         })),
       ],
     },
