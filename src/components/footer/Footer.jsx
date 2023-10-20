@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import { footerItems, footerLinks } from "../../../data";
 import { nanoid } from "nanoid";
+import { useSelector } from "react-redux";
 
 const StyledFooter = styled.div`
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   padding: 2vh 2vw;
-  background-color: var(--color-primary);
+  background-color: ${props => props.$themeColor};
   @media only screen and (max-width: 720px){
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -66,8 +67,9 @@ const StyledRightPara = styled.p`
 `;
 
 export default function Footer() {
+  const themeColor = useSelector((state) => state.theme.color);
   return (
-    <StyledFooter>
+    <StyledFooter $themeColor={themeColor}>
       <StyledLeftContainer>
         {footerItems.map((item) => {
           return (
