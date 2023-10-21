@@ -132,7 +132,7 @@ export const eventsItemsDetails = [
     city: "London",
     photoNormal: "../src/assets/fern-brady.png",
     photoSmall: "../src/assets/fern-brady-small.png",
-    photoBig: "../src/assets/fern-brady-big.png",
+    photoBig: "../src/assets/fern-brady-big.jpg",
     price: "$19",
     detailColor: "#f6aa9f",
   },

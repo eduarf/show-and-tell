@@ -16,7 +16,7 @@ export default function EventDetails({ item }) {
     };
   }, [dispatch, item]);
   return <StyledEventDetails>
-    <EventIntro comedian={item.group} eventName={item.gamesName} img={item.photoBig} />
+    <EventIntro color={item.detailColor} comedian={item.group} eventName={item.gamesName} img={item.photoBig} />
   </StyledEventDetails>;
 }
 
