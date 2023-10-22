@@ -21,19 +21,6 @@ export const flyersItems = [
 export const eventsItemsDetails = [
   {
     id: nanoid(),
-    group: "Rhys James",
-    gamesName: "Split Milk",
-    date: "30.09.23",
-    locality: "Theatre Severn",
-    city: "Shrewbury",
-    photoNormal: "../src/assets/rhys.png",
-    photoSmall: "../src/assets/rhys-small.jpeg",
-    photoBig: "../src/assets/rhys-big.jpg",
-    price: "$10",
-    detailColor: "#1aae7a",
-  },
-  {
-    id: nanoid(),
     group: "Austentatious",
     gamesName: "An Improvised Jane Austen Novel",
     date: "02.10.23",
@@ -208,6 +195,19 @@ export const eventsItemsDetails = [
     date: "12.10.23",
     locality: "The Old Rep Theatre",
     city: "Birmingham",
+    photoNormal: "../src/assets/rhys.png",
+    photoSmall: "../src/assets/rhys-small.jpeg",
+    photoBig: "../src/assets/rhys-big.jpg",
+    price: "$10",
+    detailColor: "#1aae7a",
+  },
+  {
+    id: nanoid(),
+    group: "Rhys James",
+    gamesName: "Split Milk",
+    date: "30.09.23",
+    locality: "Theatre Severn",
+    city: "Shrewbury",
     photoNormal: "../src/assets/rhys.png",
     photoSmall: "../src/assets/rhys-small.jpeg",
     photoBig: "../src/assets/rhys-big.jpg",
@@ -693,7 +693,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$24",
-    detailColor: "rgb(255, 255, 153)",
+    detailColor: "#3ba6af",
   },
   {
     id: nanoid(),
@@ -706,7 +706,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$25",
-    detailColor: "rgb(255, 255, 153)",
+    detailColor: "#3ba6af",
   },
   {
     id: nanoid(),
@@ -719,7 +719,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$15",
-    detailColor: "rgb(255, 255, 153)",
+    detailColor: "#3ba6af",
   },
   {
     id: nanoid(),
@@ -732,7 +732,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$28",
-    detailColor: "rgb(255, 255, 153)",
+    detailColor: "#3ba6af",
   },
   {
     id: nanoid(),
@@ -745,7 +745,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$17",
-    detailColor: "rgb(255, 255, 153)",
+    detailColor: "#3ba6af",
   },
   {
     id: nanoid(),
@@ -758,7 +758,7 @@ export const eventsItemsDetails = [
     photoSmall: "../src/assets/janie-small.png",
     photoBig: "../src/assets/janie-big.png",
     price: "$17",
-    detailColor: "rgb(255, 255, 153)",
+    detailColor: "#3ba6af",
   },
   {
     id: nanoid(),
