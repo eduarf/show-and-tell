@@ -12,7 +12,9 @@ const NavContainer = styled.div`
   padding: 3rem;
   background-color: ${(props) => props.$themeColor};
   font-weight: 700;
-  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
 `;
 
 const LogoContainer = styled.div`
@@ -92,9 +94,12 @@ const Navbar = () => {
   const isOpen = useSelector((state) => state.menuDropdown.isOpen);
   const themeColor = useSelector((state) => state.theme.color);
   const location = useLocation();
+
+
+
   return (
-    <NavContainer $themeColor={themeColor}>
-      <LogoContainer>
+    <NavContainer $themeColor={themeColor} >
+      <LogoContainer >
         <Logo to="/">
           <Span>Show</Span>
           <Span>And</Span>
