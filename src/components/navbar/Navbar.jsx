@@ -5,16 +5,18 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import ResponsiveMenu from "../responsive-menu/ResponsiveMenu";
 import { toggleMenuDropdown } from "../../features/menuDropdownSlice";
+import { useEffect, useState } from "react";
 
 const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 3rem;
+  padding: ${props => props.$isFixed ? '1rem 3rem' : '3rem'};
   background-color: ${(props) => props.$themeColor};
   font-weight: 700;
-  position: sticky;
-  top: 0;
-  left: 0;
+  position: ${props => props.$isFixed ? 'fixed' : 'relative'};
+  width: 100%;
+  z-index: 999;
+  transition: all .15s ease-in-out;
 `;
 
 const LogoContainer = styled.div`
@@ -95,10 +97,29 @@ const Navbar = () => {
   const themeColor = useSelector((state) => state.theme.color);
   const location = useLocation();
 
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      requestAnimationFrame(() => {
+        if (window.scrollY > 0) {
+          setIsFixed(true);
+        } else {
+          setIsFixed(false);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
 
   return (
-    <NavContainer $themeColor={themeColor} >
+    <NavContainer $themeColor={themeColor} $isFixed={isFixed} >
       <LogoContainer >
         <Logo to="/">
           <Span>Show</Span>
