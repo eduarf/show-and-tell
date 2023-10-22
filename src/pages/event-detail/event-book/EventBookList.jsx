@@ -15,6 +15,10 @@ const StyledEventList = styled.ul`
 const StyledEventItem = styled.li`
   border-bottom: 2px solid black;
   border-top: ${(props) => (props.$isTrue ? "2px solid black" : "none")};
+  @media only screen and (max-width: 720px){
+    border-bottom: 1px solid black;
+    border-top: ${(props) => (props.$isTrue ? "1px solid black" : "none")};
+  }
 `;
 const StyledEventLink = styled.a`
   display: grid;
@@ -23,6 +27,19 @@ const StyledEventLink = styled.a`
   padding: 2.8rem 4rem;
   cursor: pointer;
   transition: all .1s ease-in-out;
+  @media only screen and (max-width: 1200px){
+    gap: 3rem;
+  }
+  @media only screen and (max-width: 1000px){
+    gap: 1.5rem;
+    padding: 2.8rem 3rem;
+  }
+  @media only screen and (max-width: 720px){
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: .5rem;
+    padding: 1rem 2rem;
+  }
+
   &:hover {
     background-color: var(--color-text);
   }
@@ -33,13 +50,22 @@ const StyledEventLink = styled.a`
 const StyledShowDate = styled.span`
   font-size: 2rem;
   font-weight: 700;
+  @media only screen and (max-width: 720px){
+    font-size: 1.8rem;
+  }
 `;
 const StyledShowVenue = styled.span`
   font-size: 2rem;
   font-weight: 700;
+  @media only screen and (max-width: 720px){
+    font-size: 1.8rem;
+  }
 `;
 const StyledShowTime = styled.span`
   text-align: center;
+  @media only screen and (max-width: 720px){
+    text-align: start;
+  }
 `;
 const StyledShowPrice = styled.span``;
 const StyledBookNow = styled.span`
