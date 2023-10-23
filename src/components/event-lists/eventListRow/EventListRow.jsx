@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { eventsItemsDetails } from "../../../../data";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import NoEvent from "../../no-event/NoEvent";
 
 const StyledEventListRow = styled.div`
@@ -13,11 +13,13 @@ const StyledList = styled.ul`
   flex-direction: column;
 `;
 
-const StyledItem = styled.li`
+const StyledItem = styled(Link)`
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid black;
   border-top: ${(props) => (props.$firstItem ? "2px solid black" : "none")};
+  cursor: pointer;
+  color: var(--color-text);
   @media only screen and (max-width: 720px) {
     align-items: center;
     padding: 2rem 0;
@@ -107,7 +109,7 @@ const EventListRow = ({ filterDataRow }) => {
             ? eventsItemsDetails.map((item, index) => {
                 const firstItem = index === 0;
                 return (
-                  <StyledItem key={item.id} $firstItem={firstItem}>
+                  <StyledItem to={ `/events/${item.group.toLowerCase().replace(/\s+/g, '-')}-${item.date.split('.').reverse().join('-')}`} key={item.id} $firstItem={firstItem}>
                     <StyledItemImg src={item.photoSmall} />
                     <StyledItemLeftContainer>
                       <StyledItemEvent>
