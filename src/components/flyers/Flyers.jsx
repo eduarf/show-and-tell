@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { flyersItems } from "../../../data";
+import { useEffect, useRef } from "react";
 
 const StyledFlyers = styled.div`
   display: grid;
@@ -69,10 +70,10 @@ const StyledHeading = styled.h1`
   @media only screen and (min-width: 1500px) {
     font-size: calc(12rem + 4vw);
   }
-  @media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 1200px) {
     font-size: calc(12rem + 2vw);
   }
-  @media only screen and (max-width: 1100px){
+  @media only screen and (max-width: 1100px) {
     font-size: calc(10rem + 2vw);
   }
   @media only screen and (max-width: 1000px) {
@@ -84,31 +85,46 @@ const StyledHeading = styled.h1`
   @media only screen and (max-width: 520px) {
     font-size: calc(12rem + 8vw);
   }
-  @media only screen and (max-width: 460px){
+  @media only screen and (max-width: 460px) {
     font-size: calc(10rem + 8vw);
   }
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 400px) {
     font-size: calc(10rem + 6vw);
     letter-spacing: -10px;
   }
-  @media only screen and (max-width: 350px){
+  @media only screen and (max-width: 350px) {
     font-size: calc(8rem + 8vw);
     letter-spacing: -7px;
   }
 `;
 
 const Flyers = () => {
+  const flyerRefs = useRef([]);
+
+  useEffect(() => {
+    if (window.innerWidth > 720) { // except mobile
+      flyerRefs.current.forEach((ref, index) => {
+        setTimeout(() => {
+          ref.style.transform = "translateY(0)";
+        }, index * 200);
+      });
+    }
+  }, []);
+
+
   return (
     <StyledFlyers>
-      {flyersItems.map((item) => {
+      {flyersItems.map((item, index) => {
         return (
-          <StyledFlyersItem
+          <div
+            ref={(el) => (flyerRefs.current[index] = el)}
+            style={{ transform: "translateY(100%)", transition: 'all .5s ease-in-out'}}
             key={item.id}
-            $color={item.color}
-            $heading={item.heading}
           >
-            <StyledHeading>{item.heading}</StyledHeading>
-          </StyledFlyersItem>
+            <StyledFlyersItem $color={item.color} $heading={item.heading}>
+              <StyledHeading>{item.heading}</StyledHeading>
+            </StyledFlyersItem>
+          </div>
         );
       })}
     </StyledFlyers>

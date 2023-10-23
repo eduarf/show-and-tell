@@ -41,4 +41,5 @@ ul {
   background: var(--color-darkblue);
   position: absolute;
   pointer-events: none;
+  z-index: 1001;
 }
