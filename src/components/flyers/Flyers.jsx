@@ -102,13 +102,11 @@ const Flyers = () => {
   const flyerRefs = useRef([]);
 
   useEffect(() => {
-    if (window.innerWidth > 720) { // except mobile
       flyerRefs.current.forEach((ref, index) => {
         setTimeout(() => {
-          ref.style.transform = "translateY(0)";
+          ref.style.transform = "translateY(-5%)";
         }, index * 200);
       });
-    }
   }, []);
 
 
