@@ -8,12 +8,12 @@ const StyledResponsiveMenu = styled.div`
   width: 18rem;
   background-color: var(--color-pink);
   position: absolute;
-  top: ${(props) => (props.$isOpen ? "-60%" : "-250%")};
-  right: ${(props) => (props.$isOpen ? "-5%" : "-20%")};
+  top: ${(props) => (props.$isOpen ? "-60%" : "-450%")};
+  right: ${(props) => (props.$isOpen ? "-5%" : "-100%")};
   transform: ${(props) => (props.$isOpen ? "rotate(20deg)" : "rotate(0)")};
   z-index: 101;
   /* opacity: ${(props) => (props.$isOpen ? 1 : 0)}; */
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
   display: flex;
   align-items: flex-end;
   justify-content: center;

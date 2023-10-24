@@ -3,7 +3,7 @@ import Flyers from "../flyers/Flyers";
 // import Cookie from "../cookie/Cookie";
 
 const HeaderEl = styled.div`
-  height: calc(100vh - 94px);
+  height: calc(100lvh - 94px);
   background-color: var(--color-primary);
   display: flex;
   align-items: flex-end;
