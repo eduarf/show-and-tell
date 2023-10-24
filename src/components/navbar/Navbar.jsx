@@ -13,7 +13,7 @@ const NavContainer = styled.div`
   padding: ${props => props.$isFixed ? '1rem 3rem' : '3rem'};
   background-color: ${(props) => props.$themeColor};
   font-weight: 700;
-  position: ${props => props.$isFixed ? 'fixed' : 'relative'};
+  position: ${props => props.$isFixed && !props.$location ? 'fixed' : 'relative'};
   width: 100%;
   z-index: 999;
   transition: all .15s ease-in-out;
@@ -96,7 +96,6 @@ const Navbar = () => {
   const isOpen = useSelector((state) => state.menuDropdown.isOpen);
   const themeColor = useSelector((state) => state.theme.color);
   const location = useLocation();
-
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
@@ -119,7 +118,7 @@ const Navbar = () => {
 
 
   return (
-    <NavContainer $themeColor={themeColor} $isFixed={isFixed} >
+    <NavContainer $themeColor={themeColor} $isFixed={isFixed} $location={location.pathname === '/'} >
       <LogoContainer >
         <Logo to="/">
           <Span>Show</Span>

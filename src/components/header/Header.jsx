@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Flyers from "../flyers/Flyers";
-import Cookie from "../cookie/Cookie";
+// import Cookie from "../cookie/Cookie";
 
 const HeaderEl = styled.div`
   height: calc(100vh - 94px);
@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <HeaderEl>
       <Flyers />
-      <Cookie />
+      {/* <Cookie /> */}
     </HeaderEl>
   );
 };
